@@ -1,0 +1,12 @@
+flowchart TB
+    A[Covered occurrence] --> B[Reported or IBNR]
+    B --> C[Case estimate and<br/>development revisions]
+    C --> D[Incremental payments<br/>and claim expenses]
+    D --> E[Salvage, subrogation<br/>and ceded recovery]
+    B --> F[RBNS, IBNR and IBNER<br/>predictive distribution]
+    C --> F
+    D --> F
+    F --> G[Gross and net reserve]
+    F --> H[One-year reserve risk]
+    F --> I[IFRS 17 incurred-claim<br/>cash-flow interface]
+

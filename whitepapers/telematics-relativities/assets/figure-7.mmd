@@ -1,0 +1,19 @@
+flowchart TB
+    A1[Telematics<br/>events] --> B[Schema registry and<br/>durable event log]
+    A2[Policy, billing and<br/>claims changes] --> B
+    A3[Road, weather and<br/>context releases] --> B
+    B --> C[Flink event-time<br/>quality and state]
+    C --> D1[Exposure<br/>ledger]
+    C --> D2[Explicit Telematics<br/>Feature Path]
+    C --> D3[Sequence<br/>windows]
+    D3 --> E[Versioned GRU<br/>inference]
+    D1 --> F[Point-in-time feature<br/>and outcome store]
+    D2 --> F
+    E --> F
+    F --> G[Hierarchical actuarial<br/>training and valuation]
+    G --> H1[Tariff calibration<br/>and decision gate]
+    G --> H2[Reserve, capital and<br/>risk-transfer engines]
+    H1 --> I[Decision and explanation<br/>audit ledger]
+    H2 --> I
+    F --> J[Snapshot lakehouse<br/>replay and validation]
+

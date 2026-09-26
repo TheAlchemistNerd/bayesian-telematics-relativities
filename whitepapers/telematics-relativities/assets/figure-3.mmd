@@ -1,0 +1,8 @@
+flowchart TB
+    A[Explicit features and<br/>residual neural representation] --> B[Hierarchical posterior<br/>frequency, severity and uncertainty]
+    B --> C{Underwriting and<br/>Compliance Gate}
+    C -->|Persistent, credible evidence| D[Renewal or approved<br/>premium relativity]
+    C -->|Acute safety state| E[Warning, routing or<br/>rest intervention]
+    C -->|Weak data quality| F[Fallback tariff and<br/>data remediation]
+    C -->|Material uncertainty| G[Hold, cap or<br/>human review]
+

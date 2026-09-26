@@ -1,0 +1,534 @@
+{
+  "date": "2026-09-26",
+  "source_head": "1420ffef345910e90aad8fad28c8acc537cad248",
+  "files": [
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\ADDITIONAL_REVIEW_PRICING_AND_TREASURY_2026-09-23.md",
+      "relative_path": "whitepapers/telematics-relativities/ADDITIONAL_REVIEW_PRICING_AND_TREASURY_2026-09-23.md",
+      "source_sha256": "a639a20abef98ec9312268f23f346361244ea8e533c0996099c4d2b0a6d3d9bd",
+      "destination_sha256": "0b6910245bdd019d919a803f3d6859e7c0c1e6117adf01360b793cc32d5e2a9f",
+      "adapted": true
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\BRIAN_HEY_PRIZE_2026_SUBMISSION_PLAN.md",
+      "relative_path": "whitepapers/telematics-relativities/BRIAN_HEY_PRIZE_2026_SUBMISSION_PLAN.md",
+      "source_sha256": "ab60b4986dd1453e542ed40704521c487315398c9c2a6128f9ccb170d5ef1241",
+      "destination_sha256": "ab60b4986dd1453e542ed40704521c487315398c9c2a6128f9ccb170d5ef1241",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\DETAILED_IMPLEMENTATION_PLAN.md",
+      "relative_path": "whitepapers/telematics-relativities/DETAILED_IMPLEMENTATION_PLAN.md",
+      "source_sha256": "d65ef521ec0233b020e2c3f08613d047f797aab819f9ed0d0239b1c6c9445e82",
+      "destination_sha256": "d65ef521ec0233b020e2c3f08613d047f797aab819f9ed0d0239b1c6c9445e82",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\guide.md",
+      "relative_path": "whitepapers/telematics-relativities/guide.md",
+      "source_sha256": "a6eae39ade582921b67c556b3226f682399754ba7e44f9493263ea93a865950f",
+      "destination_sha256": "a6eae39ade582921b67c556b3226f682399754ba7e44f9493263ea93a865950f",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\IMPLEMENTATION_CORRECTION_LEDGER.md",
+      "relative_path": "whitepapers/telematics-relativities/IMPLEMENTATION_CORRECTION_LEDGER.md",
+      "source_sha256": "3dfbcad9bc9998335f2d2e792929e07937aeeab9ec1ebc2783802475393f7414",
+      "destination_sha256": "3dfbcad9bc9998335f2d2e792929e07937aeeab9ec1ebc2783802475393f7414",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\LINKEDIN_POST.md",
+      "relative_path": "whitepapers/telematics-relativities/LINKEDIN_POST.md",
+      "source_sha256": "3ccb5c6849426dafc35e8689ca16505fe9f9a3a658b5da7f9093abb6ead9a03a",
+      "destination_sha256": "3ccb5c6849426dafc35e8689ca16505fe9f9a3a658b5da7f9093abb6ead9a03a",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\Mathematical_Derivations.md",
+      "relative_path": "whitepapers/telematics-relativities/Mathematical_Derivations.md",
+      "source_sha256": "44d6832e0bd8ccb3fb6b242c789b6afe8144e64b1ff20e9bf1c31fce9103f1ee",
+      "destination_sha256": "be0a576fd0d87d80655da6d5b1058e17bee0c1ec995473f3ff55bd99af7f3d48",
+      "adapted": true
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\outline.md",
+      "relative_path": "whitepapers/telematics-relativities/outline.md",
+      "source_sha256": "83f4edb288f41574900d6c2057d50b1f3515d85f90dcdd2d363a444d11f03d35",
+      "destination_sha256": "83f4edb288f41574900d6c2057d50b1f3515d85f90dcdd2d363a444d11f03d35",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\paper.md",
+      "relative_path": "whitepapers/telematics-relativities/paper.md",
+      "source_sha256": "ef155755da4b1907c34c8a127d4c394cd84a551bdbdb7a014b3c2191947a16a4",
+      "destination_sha256": "ef155755da4b1907c34c8a127d4c394cd84a551bdbdb7a014b3c2191947a16a4",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\research-note.md",
+      "relative_path": "whitepapers/telematics-relativities/research-note.md",
+      "source_sha256": "ba8b322b0981426da798fd1cc09048dd04202d9f21160404c9255e21daabaef5",
+      "destination_sha256": "ba8b322b0981426da798fd1cc09048dd04202d9f21160404c9255e21daabaef5",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\Semantic_Comparison_Notes.md",
+      "relative_path": "whitepapers/telematics-relativities/Semantic_Comparison_Notes.md",
+      "source_sha256": "ca19e490b2e744676fdecadef3b9e017c75436e11072c1ad998bbf7dac29cd74",
+      "destination_sha256": "ca19e490b2e744676fdecadef3b9e017c75436e11072c1ad998bbf7dac29cd74",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\validate.py",
+      "relative_path": "whitepapers/telematics-relativities/validate.py",
+      "source_sha256": "8744c0ec76c343c87718759e1619976786921804c15785f07916ed56f221b047",
+      "destination_sha256": "8744c0ec76c343c87718759e1619976786921804c15785f07916ed56f221b047",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-1.mmd",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-1.mmd",
+      "source_sha256": "1ba18070d92f5241194e0aadcf1e8359c5955ad47116d0537cd3d0b7e6804a27",
+      "destination_sha256": "1ba18070d92f5241194e0aadcf1e8359c5955ad47116d0537cd3d0b7e6804a27",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-1.png",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-1.png",
+      "source_sha256": "2743dd50e69c6f89e310937ddca9688b55049190a7df18c32734c5f9b9073e9b",
+      "destination_sha256": "2743dd50e69c6f89e310937ddca9688b55049190a7df18c32734c5f9b9073e9b",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-2.mmd",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-2.mmd",
+      "source_sha256": "0694455a327e9eb5b817f037fd2452d9ce1ab46377287e52a97f58f3f4cdf0f4",
+      "destination_sha256": "0694455a327e9eb5b817f037fd2452d9ce1ab46377287e52a97f58f3f4cdf0f4",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-2.png",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-2.png",
+      "source_sha256": "329d6f9fe73d0462531aab2d9fad4cf7fa135c29b57aacc3114b12731739cc82",
+      "destination_sha256": "329d6f9fe73d0462531aab2d9fad4cf7fa135c29b57aacc3114b12731739cc82",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-3.mmd",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-3.mmd",
+      "source_sha256": "4154690ad708395c5a7bf890f86dd1599d3813435dd847b166ee442f38696f57",
+      "destination_sha256": "4154690ad708395c5a7bf890f86dd1599d3813435dd847b166ee442f38696f57",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-3.png",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-3.png",
+      "source_sha256": "c892622b61351938c0f8383dd929c29819c83339aaddbd4f15d5874c2adf3a66",
+      "destination_sha256": "c892622b61351938c0f8383dd929c29819c83339aaddbd4f15d5874c2adf3a66",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-4.mmd",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-4.mmd",
+      "source_sha256": "598989d3fe4a95612dbb812e03fd2c1ce78a5a9192f627413a2aa13cef0a8511",
+      "destination_sha256": "598989d3fe4a95612dbb812e03fd2c1ce78a5a9192f627413a2aa13cef0a8511",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-4.png",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-4.png",
+      "source_sha256": "b30a31d23fa776ea10eb012a0ba6a23ccb1165a58bf3ba86992b89f534b54e17",
+      "destination_sha256": "b30a31d23fa776ea10eb012a0ba6a23ccb1165a58bf3ba86992b89f534b54e17",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-5.mmd",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-5.mmd",
+      "source_sha256": "cd72c971bad2801ed28ca06b329d057eb897bdde61945d33b176b07a36f0aad8",
+      "destination_sha256": "cd72c971bad2801ed28ca06b329d057eb897bdde61945d33b176b07a36f0aad8",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-5.png",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-5.png",
+      "source_sha256": "94d7084892899b9ff4a2a347f592a99e83c20c3821a282808946fab2f747263a",
+      "destination_sha256": "94d7084892899b9ff4a2a347f592a99e83c20c3821a282808946fab2f747263a",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-6.mmd",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-6.mmd",
+      "source_sha256": "194c5fcf3448dc7659498df49ff7d94c398618db2f1d6cd1993cfe92ce67e135",
+      "destination_sha256": "194c5fcf3448dc7659498df49ff7d94c398618db2f1d6cd1993cfe92ce67e135",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-6.png",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-6.png",
+      "source_sha256": "5c9e78067aa1c7f0ef72ecfca58c53f798fca59486e21fbee03ebdbfcd6f141e",
+      "destination_sha256": "5c9e78067aa1c7f0ef72ecfca58c53f798fca59486e21fbee03ebdbfcd6f141e",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-7.mmd",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-7.mmd",
+      "source_sha256": "69479bf95f38804feb3a4a3dd318e554bd712118ca013cd1bb4618dd81f69c01",
+      "destination_sha256": "69479bf95f38804feb3a4a3dd318e554bd712118ca013cd1bb4618dd81f69c01",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\assets\\figure-7.png",
+      "relative_path": "whitepapers/telematics-relativities/assets/figure-7.png",
+      "source_sha256": "0d8ab4ad673411e205d82ddfb41e49f829f037f78a1e51dae35ce4c64a57e652",
+      "destination_sha256": "0d8ab4ad673411e205d82ddfb41e49f829f037f78a1e51dae35ce4c64a57e652",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\scripts\\build_paper.ps1",
+      "relative_path": "whitepapers/telematics-relativities/scripts/build_paper.ps1",
+      "source_sha256": "4e064b48d7c3503691febd149455ca2e8480843138492949d7c5aa0e23543476",
+      "destination_sha256": "4e064b48d7c3503691febd149455ca2e8480843138492949d7c5aa0e23543476",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\scripts\\postprocess_docx.py",
+      "relative_path": "whitepapers/telematics-relativities/scripts/postprocess_docx.py",
+      "source_sha256": "c7c35e1ca0dde4ba1048a9d789ae6fa55d20ef788769c5cd17e2f433ce397348",
+      "destination_sha256": "c7c35e1ca0dde4ba1048a9d789ae6fa55d20ef788769c5cd17e2f433ce397348",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\whitepapers\\telematics-relativities\\scripts\\puppeteer-config.json",
+      "relative_path": "whitepapers/telematics-relativities/scripts/puppeteer-config.json",
+      "source_sha256": "3b36b96d2bc38a39d31d98a0dda953d94736e2ca6083c1fc7fc6b9202637c231",
+      "destination_sha256": "3b36b96d2bc38a39d31d98a0dda953d94736e2ca6083c1fc7fc6b9202637c231",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\2026-brian-hey-guidelines.docx",
+      "relative_path": "publications/submissions/brian-hey-2026/2026-brian-hey-guidelines.docx",
+      "source_sha256": "a7fc03e33486af9ca7cbc5d5e0eb86c5cea4da2e88261001c2c9b8c4193aa9bb",
+      "destination_sha256": "a7fc03e33486af9ca7cbc5d5e0eb86c5cea4da2e88261001c2c9b8c4193aa9bb",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\Bayesian_Credibility_Telematics_Brian_Hey_2026.docx",
+      "relative_path": "publications/submissions/brian-hey-2026/Bayesian_Credibility_Telematics_Brian_Hey_2026.docx",
+      "source_sha256": "3ab105a64ebd1f98263b8c0885eeaf72f9f6a2c6d2981d4b1b4ed5231f20e645",
+      "destination_sha256": "3ab105a64ebd1f98263b8c0885eeaf72f9f6a2c6d2981d4b1b4ed5231f20e645",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\Bayesian_Credibility_Telematics_Brian_Hey_2026.md",
+      "relative_path": "publications/submissions/brian-hey-2026/Bayesian_Credibility_Telematics_Brian_Hey_2026.md",
+      "source_sha256": "6886bc8419766ef051b4d4df5f085a9080ba6502a57bf9b7b3915cd24cda0f58",
+      "destination_sha256": "6886bc8419766ef051b4d4df5f085a9080ba6502a57bf9b7b3915cd24cda0f58",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\Bayesian_Credibility_Telematics_Brian_Hey_2026.pdf",
+      "relative_path": "publications/submissions/brian-hey-2026/Bayesian_Credibility_Telematics_Brian_Hey_2026.pdf",
+      "source_sha256": "e617328eac4864601c02df1603e3280eb5f27271f25b3551a5f7cf7c9b72868a",
+      "destination_sha256": "e617328eac4864601c02df1603e3280eb5f27271f25b3551a5f7cf7c9b72868a",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\Bayesian_Credibility_Telematics_Brian_Hey_2026_Python_Code.zip",
+      "relative_path": "publications/submissions/brian-hey-2026/Bayesian_Credibility_Telematics_Brian_Hey_2026_Python_Code.zip",
+      "source_sha256": "2b180d3bd9b54871bd42b586095fae6dc0bd2e2fb8c3ae3a80a6f97e5397b918",
+      "destination_sha256": "2b180d3bd9b54871bd42b586095fae6dc0bd2e2fb8c3ae3a80a6f97e5397b918",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\README.md",
+      "relative_path": "publications/submissions/brian-hey-2026/README.md",
+      "source_sha256": "14529215705e25cd478a7d80e013ff15b20a7d5707da800b67d9d83202a1e672",
+      "destination_sha256": "14529215705e25cd478a7d80e013ff15b20a7d5707da800b67d9d83202a1e672",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\submission_requirements.md",
+      "relative_path": "publications/submissions/brian-hey-2026/submission_requirements.md",
+      "source_sha256": "5d3905ff532d900f3ac104d69f7711b5dde9775aa0e0bc7a45888670045c73a2",
+      "destination_sha256": "5d3905ff532d900f3ac104d69f7711b5dde9775aa0e0bc7a45888670045c73a2",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\experiment\\run_synthetic_comparison.py",
+      "relative_path": "publications/submissions/brian-hey-2026/experiment/run_synthetic_comparison.py",
+      "source_sha256": "0ec2a1507ff9e09b1d9ea5dbcf5507afc164672d8e201f86b30051cbe7846707",
+      "destination_sha256": "0ec2a1507ff9e09b1d9ea5dbcf5507afc164672d8e201f86b30051cbe7846707",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\experiment\\figures\\model_comparison.png",
+      "relative_path": "publications/submissions/brian-hey-2026/experiment/figures/model_comparison.png",
+      "source_sha256": "e528c4478dd54312f2983597c0f4e47a89e83ac299c4f7ab8d85d1292f4b6962",
+      "destination_sha256": "e528c4478dd54312f2983597c0f4e47a89e83ac299c4f7ab8d85d1292f4b6962",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\experiment\\figures\\representation_diagnostics.png",
+      "relative_path": "publications/submissions/brian-hey-2026/experiment/figures/representation_diagnostics.png",
+      "source_sha256": "e8154f19e21ba856e2dc8af76640c8ac75bd51022420ecf35c8f6b909c2661f8",
+      "destination_sha256": "e8154f19e21ba856e2dc8af76640c8ac75bd51022420ecf35c8f6b909c2661f8",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\experiment\\results\\capital_and_risk_transfer.csv",
+      "relative_path": "publications/submissions/brian-hey-2026/experiment/results/capital_and_risk_transfer.csv",
+      "source_sha256": "158f03502b44624f8c7e047e6cb3b7318356dabbb6d97673cebc56268be652ea",
+      "destination_sha256": "158f03502b44624f8c7e047e6cb3b7318356dabbb6d97673cebc56268be652ea",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\experiment\\results\\model_comparison.csv",
+      "relative_path": "publications/submissions/brian-hey-2026/experiment/results/model_comparison.csv",
+      "source_sha256": "af4bc3b55fe20045a2d9c7bead986694b6ef486038581b4af3c7e2cc4029a504",
+      "destination_sha256": "af4bc3b55fe20045a2d9c7bead986694b6ef486038581b4af3c7e2cc4029a504",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\experiment\\results\\representation_and_balance.csv",
+      "relative_path": "publications/submissions/brian-hey-2026/experiment/results/representation_and_balance.csv",
+      "source_sha256": "eb753d8eabf3b069b1811ed506208fccc18e1bb6e3d3c821cf76d99b9e7038d4",
+      "destination_sha256": "eb753d8eabf3b069b1811ed506208fccc18e1bb6e3d3c821cf76d99b9e7038d4",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\experiment\\results\\reserve_comparison.csv",
+      "relative_path": "publications/submissions/brian-hey-2026/experiment/results/reserve_comparison.csv",
+      "source_sha256": "091728aee790fd33925acbddb0adc8d873c3720704569f69e4c1124c808606fa",
+      "destination_sha256": "091728aee790fd33925acbddb0adc8d873c3720704569f69e4c1124c808606fa",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\experiment\\results\\run_manifest.json",
+      "relative_path": "publications/submissions/brian-hey-2026/experiment/results/run_manifest.json",
+      "source_sha256": "4ebcc856518c56a5e0334b63e7d636d948b3031598488a4b9e0ae69e1d68a6aa",
+      "destination_sha256": "4ebcc856518c56a5e0334b63e7d636d948b3031598488a4b9e0ae69e1d68a6aa",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\experiment\\results\\synthetic_sample_250_rows.csv",
+      "relative_path": "publications/submissions/brian-hey-2026/experiment/results/synthetic_sample_250_rows.csv",
+      "source_sha256": "367bdd7da97b7c84e313523f8adffbb601999b26bc1b033480ca5a4c5e5c636d",
+      "destination_sha256": "367bdd7da97b7c84e313523f8adffbb601999b26bc1b033480ca5a4c5e5c636d",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-1.mmd",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-1.mmd",
+      "source_sha256": "22f777605cc17c7d4b5a813be3c114b7dad349870068cfe75919ea290c80fc1d",
+      "destination_sha256": "22f777605cc17c7d4b5a813be3c114b7dad349870068cfe75919ea290c80fc1d",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-1.png",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-1.png",
+      "source_sha256": "2743dd50e69c6f89e310937ddca9688b55049190a7df18c32734c5f9b9073e9b",
+      "destination_sha256": "2743dd50e69c6f89e310937ddca9688b55049190a7df18c32734c5f9b9073e9b",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-2.mmd",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-2.mmd",
+      "source_sha256": "db9afea4ba9c72f315ac46a22020f4deb627d814ab38164cf20ccce00620eb6f",
+      "destination_sha256": "db9afea4ba9c72f315ac46a22020f4deb627d814ab38164cf20ccce00620eb6f",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-2.png",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-2.png",
+      "source_sha256": "329d6f9fe73d0462531aab2d9fad4cf7fa135c29b57aacc3114b12731739cc82",
+      "destination_sha256": "329d6f9fe73d0462531aab2d9fad4cf7fa135c29b57aacc3114b12731739cc82",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-3.mmd",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-3.mmd",
+      "source_sha256": "de8899d233e8383e6857db9b74f237baf36f456b6c350ca9337ab6252b360695",
+      "destination_sha256": "de8899d233e8383e6857db9b74f237baf36f456b6c350ca9337ab6252b360695",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-3.png",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-3.png",
+      "source_sha256": "c892622b61351938c0f8383dd929c29819c83339aaddbd4f15d5874c2adf3a66",
+      "destination_sha256": "c892622b61351938c0f8383dd929c29819c83339aaddbd4f15d5874c2adf3a66",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-4.mmd",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-4.mmd",
+      "source_sha256": "4012c6535181c12e38502c54df25bafa467cc7ed4faec9118371899c2f0429f6",
+      "destination_sha256": "4012c6535181c12e38502c54df25bafa467cc7ed4faec9118371899c2f0429f6",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-4.png",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-4.png",
+      "source_sha256": "b30a31d23fa776ea10eb012a0ba6a23ccb1165a58bf3ba86992b89f534b54e17",
+      "destination_sha256": "b30a31d23fa776ea10eb012a0ba6a23ccb1165a58bf3ba86992b89f534b54e17",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-5.mmd",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-5.mmd",
+      "source_sha256": "416cc336ab3fd34d944ef68d0f4e82880a434b1a6473280f71de5455c49bc05d",
+      "destination_sha256": "416cc336ab3fd34d944ef68d0f4e82880a434b1a6473280f71de5455c49bc05d",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-5.png",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-5.png",
+      "source_sha256": "94d7084892899b9ff4a2a347f592a99e83c20c3821a282808946fab2f747263a",
+      "destination_sha256": "94d7084892899b9ff4a2a347f592a99e83c20c3821a282808946fab2f747263a",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-6.mmd",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-6.mmd",
+      "source_sha256": "0f8dd6c7ed54c13b6d3d42b1a8f151bfbcccc32d0721d88847c70392b41c15f2",
+      "destination_sha256": "0f8dd6c7ed54c13b6d3d42b1a8f151bfbcccc32d0721d88847c70392b41c15f2",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-6.png",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-6.png",
+      "source_sha256": "77f40448cf60f58b8ba923dbcc616f4a63f620fee842caa306ca36da46c9e807",
+      "destination_sha256": "77f40448cf60f58b8ba923dbcc616f4a63f620fee842caa306ca36da46c9e807",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-7.mmd",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-7.mmd",
+      "source_sha256": "8198154bb4bfc6ddb8231675edaff49ee77b9dd52174007b091779af2f49a0cc",
+      "destination_sha256": "8198154bb4bfc6ddb8231675edaff49ee77b9dd52174007b091779af2f49a0cc",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\figures\\architecture-7.png",
+      "relative_path": "publications/submissions/brian-hey-2026/figures/architecture-7.png",
+      "source_sha256": "426aa3d5fe1db94191a01700b40c5636d9da73ef925751c1c7349d43eec7a0b3",
+      "destination_sha256": "426aa3d5fe1db94191a01700b40c5636d9da73ef925751c1c7349d43eec7a0b3",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\scripts\\build_submission.ps1",
+      "relative_path": "publications/submissions/brian-hey-2026/scripts/build_submission.ps1",
+      "source_sha256": "d00d48270cf2de554dd82f7976fc4f9d314d6119c730152f9f5f1f81aefca998",
+      "destination_sha256": "d00d48270cf2de554dd82f7976fc4f9d314d6119c730152f9f5f1f81aefca998",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\scripts\\postprocess_submission_docx.py",
+      "relative_path": "publications/submissions/brian-hey-2026/scripts/postprocess_submission_docx.py",
+      "source_sha256": "26135738cb044fef3129344257ee71ddcb354ee29dfd2bafbefd54a12689785a",
+      "destination_sha256": "26135738cb044fef3129344257ee71ddcb354ee29dfd2bafbefd54a12689785a",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\scripts\\puppeteer-config.json",
+      "relative_path": "publications/submissions/brian-hey-2026/scripts/puppeteer-config.json",
+      "source_sha256": "3b36b96d2bc38a39d31d98a0dda953d94736e2ca6083c1fc7fc6b9202637c231",
+      "destination_sha256": "3b36b96d2bc38a39d31d98a0dda953d94736e2ca6083c1fc7fc6b9202637c231",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\scripts\\table_geometry.py",
+      "relative_path": "publications/submissions/brian-hey-2026/scripts/table_geometry.py",
+      "source_sha256": "c792883c6785663588e80900b73f1bbf696a5e48dd2d56718af3bfbfa2d2b42e",
+      "destination_sha256": "c792883c6785663588e80900b73f1bbf696a5e48dd2d56718af3bfbfa2d2b42e",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\validation\\final_hashes.json",
+      "relative_path": "publications/submissions/brian-hey-2026/validation/final_hashes.json",
+      "source_sha256": "91bc46d35a4b78cc949f67ad311857fb3447c5a575028ddbf1e1876ce71cceb3",
+      "destination_sha256": "91bc46d35a4b78cc949f67ad311857fb3447c5a575028ddbf1e1876ce71cceb3",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\submissions\\brian-hey-2026\\validation\\validate_submission.py",
+      "relative_path": "publications/submissions/brian-hey-2026/validation/validate_submission.py",
+      "source_sha256": "004189f38b16ddca484ed90cafd0bc33e54b66271c17917b67e5aa31629464cc",
+      "destination_sha256": "004189f38b16ddca484ed90cafd0bc33e54b66271c17917b67e5aa31629464cc",
+      "adapted": false
+    },
+    {
+      "repository": "bayesian-telematics-relativities",
+      "source": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\publications\\pdfs\\Bayesian_Credibility_and_Exposure_Normalised_Telematics_Relativities_CC_BY_NC_SA_4_0_2026-09-08.pdf",
+      "relative_path": "publications/pdfs/Bayesian_Credibility_and_Exposure_Normalised_Telematics_Relativities_CC_BY_NC_SA_4_0_2026-09-08.pdf",
+      "source_sha256": "9a48494a4c41ef9333ce9f0c9de7ad976ca59af8b554a9d257c76a1c77733dbc",
+      "destination_sha256": "9a48494a4c41ef9333ce9f0c9de7ad976ca59af8b554a9d257c76a1c77733dbc",
+      "adapted": false
+    }
+  ]
+}

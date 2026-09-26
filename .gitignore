@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+scratchpad/
+*.tmp
+~$*
+*.aux
+*.log
+*.toc
+*.out
+/whitepapers/telematics-relativities/build/
+/whitepapers/telematics-relativities/paper.docx

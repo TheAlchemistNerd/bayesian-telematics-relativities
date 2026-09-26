@@ -1,0 +1,8 @@
+metric,value
+raw_expected_loss_weighted_mean_relativity,1.062705046949489
+calibrated_expected_loss_weighted_mean_relativity,1.0000000000000002
+max_abs_explicit_raw_embedding_correlation,0.6275423302717617
+max_abs_explicit_residual_embedding_correlation,0.005939271425058051
+M2_effective_neural_dimensions,8.0
+M3_effective_neural_dimensions,8.0
+M4_effective_neural_dimensions,2.0

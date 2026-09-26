@@ -1,0 +1,54 @@
+{
+  "parameters": {
+    "seed": 260831,
+    "drivers": 2800,
+    "months": 18,
+    "training_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "future_holdout_months": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "embedding_dimensions": 12,
+    "frequency_family": "Poisson with Gamma credibility frailty",
+    "severity_family": "Gamma with log link",
+    "spline_basis": "cubic B-spline with second-difference P-spline penalty",
+    "residualisation": "five-fold driver-grouped cross-fitting",
+    "M4_estimation": "regularised-horseshoe penalised conditional-mode approximation",
+    "capital_draws": 8000,
+    "synthetic_evidence_notice": "No row represents an actual policyholder, claim, insurer, or Kenyan driver."
+  },
+  "environment": {
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "pillow": "12.3.0",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "script_sha256": "0EC2A1507FF9E09B1D9EA5DBCF5507AFC164672D8E201F86B30051CBE7846707",
+  "outputs": [
+    "results\\capital_and_risk_transfer.csv",
+    "results\\model_comparison.csv",
+    "results\\representation_and_balance.csv",
+    "results\\reserve_comparison.csv",
+    "results\\synthetic_sample_250_rows.csv",
+    "figures\\model_comparison.png",
+    "figures\\representation_diagnostics.png"
+  ]
+}

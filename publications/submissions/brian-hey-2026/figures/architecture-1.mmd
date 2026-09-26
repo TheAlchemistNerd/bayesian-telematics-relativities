@@ -1,0 +1,14 @@
+flowchart TB
+    A[Driver activity<br/>vehicle, route, time and conditions] --> B[Event-time ingestion<br/>quality and consent controls]
+    B --> C1[Explicit Telematics<br/>Feature Path]
+    B --> C2[GRU sequence<br/>encoder]
+    C1 --> D[Cross-fitted<br/>residualisation]
+    C2 --> D
+    C1 --> E[Hierarchical Bayesian<br/>frequency-severity model]
+    D --> E
+    E --> F[Exposure-normalised<br/>actuarial relativities]
+    F --> G[Technical premium<br/>and safety actions]
+    E --> H[Predictive loss and<br/>claim-development model]
+    H --> I[Reserves and<br/>economic capital]
+    I --> J[Risk-transfer pricing<br/>and monitoring]
+    H --> K[IFRS 17 cash-flow<br/>measurement interface]

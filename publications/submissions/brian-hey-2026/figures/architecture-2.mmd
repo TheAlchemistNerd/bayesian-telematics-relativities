@@ -1,0 +1,13 @@
+flowchart TB
+    A[Base tariff<br/>expected loss] --> B1[Frequency<br/>relativity]
+    A --> B2[Severity<br/>relativity]
+    B1 --> C[Joint pure-premium<br/>relativity]
+    B2 --> C
+    C --> D[Expected-loss weighted<br/>cell calibration]
+    D --> E[Calibrated driving<br/>pure premium]
+    F[Non-driving<br/>expected loss] --> G[Total pure<br/>premium]
+    E --> G
+    G --> H[Claim and<br/>operating expense]
+    H --> I[Risk-transfer and<br/>capital provision]
+    I --> J[Approved commercial<br/>adjustment]
+    J --> K[Customer<br/>premium]

@@ -1,0 +1,100 @@
+commit 1420ffef345910e90aad8fad28c8acc537cad248
+Author:     TheAlchemistNerd <nevillemaloba@yahoo.com>
+AuthorDate: Thu Sep 3 08:01:34 2026 +0300
+Commit:     TheAlchemistNerd <nevillemaloba@yahoo.com>
+CommitDate: Thu Sep 3 08:01:34 2026 +0300
+
+    Comprehensive Architectural Evolution, Model Governance, and Research Portfolio Expansion
+    
+    This commit introduces a sweeping array of architectural updates, methodological enhancements, and a significant expansion of the research publication portfolio across the Mwendo Pamoja and Telematics Relativities frameworks. The scale of these changes touches upon deep Bayesian underwriting models, asymmetric copula structures, regulatory orchestration, and the introduction of full-fledged academic and industry submissions. This evolution ensures that both our theoretical foundations and production deployments remain mathematically rigorous, economically sound, and aligned with cutting-edge actuarial and machine learning standards.
+    
+    ### 1. Mwendo Pamoja: Credit Risk Architecture and Model Specifications
+    
+    A central theme of this update is the reinforcement of the Credit Risk Model and Loss Architecture Specification, deeply integrating it across all parts of the Mwendo Pamoja documentation. This cross-pollination ensures that product states, timing definitions, and cash-loss components do not drift across the wider programme.
+    
+    *   **Part 1: Product Architecture and Cascades:** We have introduced the conceptual framework of "Three credit clocks" between strain and realised loss. This includes the operating and decision clock, the contractual performance clock, and the loss and recovery clock. This separation prevents early liquidity warnings from being confused with contractual defaults or recovery timing, ensuring a mathematically precise representation of cash-flow resilience.
+    *   **Part 2a: Deep Temporal Representation and Feature Engineering:** A highly detailed "Credit-State Ledger and Five Clocks" section has been added. This establishes a strict separation between Event time (Te), Availability time (Ta), Decision time (Td), Label-maturity time (Tm), and Cash-realisation time (Tc). The feature store pattern is now strictly governed by these ledgers to guarantee availability-time correctness, eliminating look-ahead bias in our neural representations.
+    *   **Part 2b: Bayesian Underwriting and Asymmetric Copulas:** This section has seen a massive overhaul. The "B-Splines as Smooth Alternatives to Binning" section has been elevated to "Governed P-Splines for Nonlinear Liquidity Effects". Instead of relying merely on B-splines with AR(1) priors, the main specification now evaluates a moderately rich B-spline basis coupled with an explicit difference penalty (P-spline). This allows for sparse Gaussian updates in a hierarchical framework. Furthermore, a "Conditional Conjugacy for the Complete HLR" via Pólya-Gamma augmentation has been detailed, enabling efficient blocked Gibbs sampling offline. We also introduced a "Hierarchical Piecewise-Exponential Timing Challenger" to act as a survival model counterpart to the fixed-horizon HLR, offering insights into *when* defaults are expected to occur.
+    *   **Part 3, 4, 5, & 6 Integrations:** The regulatory orchestration, Enterprise ERP telemetry, KESONIA pricing, and implementation roadmaps have all been updated to explicitly reference the unified `CREDIT_RISK_MODEL_AND_LOSS_ARCHITECTURE_SPECIFICATION.md`. This ensures that downstream operations like ECL (Expected Credit Loss) handoffs, SPV funding, and waterfall logic are seamlessly connected to the upstream Bayesian posterior artifacts.
+    
+    ### 2. Telematics Relativities: Major Paper Enhancements
+    
+    The `telematics-relativities/paper.md` has undergone an extensive 1300+ line expansion, representing a complete maturation of the hierarchical negative binomial gamma framework for usage-based insurance (UBI) motor premium pricing.
+    *   The paper now meticulously details the mathematical derivations of Bayesian credibility in telematics.
+    *   It covers the intricate balance between traditional risk factors and telematics-derived features, ensuring that the integration of high-frequency data does not compromise the stability of actuarial reserves.
+    *   The validation script (`validate.py`) has been upgraded to support these new methodological checks, ensuring that the theoretical models are empirically validated against synthetic and historical telematics data.
+    *   A new suite of mathematical derivation documents and semantic comparison notes have been introduced to support the paper's claims.
+    
+    ### 3. Expansion of the Research Publication Portfolio
+    
+    This commit marks a massive leap in our publication strategy, adding entire directories dedicated to upcoming academic and industry submissions.
+    
+    *   **Brian Hey Prize 2026 Submission:** We have established a comprehensive workspace for the Brian Hey Prize 2026 submission, titled "Bayesian_Credibility_Telematics_Brian_Hey_2026.md". This includes the main submission manuscript, detailed experiment results (capital and risk transfer, model comparisons, reserve comparisons), architecture figures (Mermaid diagrams), and specialized scripts for building the submission (e.g., `build_submission.ps1`, `table_geometry.py`). This demonstrates a clear path from theoretical research to prestigious actuarial recognition.
+    *   **KBA (Kenya Bankers Association) Lifecycle Credit Submission:** A highly structured 11-step lifecycle has been instantiated for the KBA Economic Bulletin. This pipeline spans from an initial editorial enquiry (01) and research proposal (03) all the way to a canonical research specification (04), data dictionary (06), and the final article draft (08). It includes extensive raw public data integration from the Central Bank of Kenya (CBK), covering weighted average rates, KESONIA compounded indices, and MSME NPL trends segmented by gender, sector, and collateral status.
+    *   **LinkedIn and Brand Publications:** We have added targeted publication plans for LinkedIn, including "Risk Architecture in Practice" and "Underwrite for Collection". These pieces are designed to translate our deep technical architecture into digestible, high-impact brand notes for the wider Insurtech and embedded finance community.
+    
+    ### 4. Cleanup and Untracked File Incorporation
+    
+    *   The legacy, pre-compiled PDF (`Mwendo_Pamoja_Continuous_Underwriting_White_Paper_Final.pdf`) has been permanently deleted from the `dist` folder. We are shifting towards reproducible, script-driven builds (e.g., using Puppeteer and Pandoc) to ensure that the final outputs are always synchronized with the latest markdown specifications.
+    *   Dozens of previously untracked research notes, implementation plans (like `DETAILED_IMPLEMENTATION_PLAN_CREDIT_RISK_ENHANCEMENTS.md`), correction ledgers, and source extraction logs are now tracked. This ensures that every piece of intellectual property, no matter how granular, is version-controlled and preserved.
+    *   Note: The `implementation_plan.md` has been intentionally excluded from this commit to allow for ongoing fluid planning and dynamic workflow management in the local workspace without polluting the remote history with transient task lists.
+    
+    This commit is a foundational step forward. It solidifies the mathematical rigor of our Bayesian models, aligns our technical specifications with regulatory and accounting realities, and aggressively expands our footprint in academic and industry thought leadership.
+
+A	publications/submissions/brian-hey-2026/Bayesian_Credibility_Telematics_Brian_Hey_2026.md
+A	publications/submissions/brian-hey-2026/README.md
+A	publications/submissions/brian-hey-2026/experiment/results/capital_and_risk_transfer.csv
+A	publications/submissions/brian-hey-2026/experiment/results/model_comparison.csv
+A	publications/submissions/brian-hey-2026/experiment/results/representation_and_balance.csv
+A	publications/submissions/brian-hey-2026/experiment/results/reserve_comparison.csv
+A	publications/submissions/brian-hey-2026/experiment/results/run_manifest.json
+A	publications/submissions/brian-hey-2026/experiment/results/synthetic_sample_250_rows.csv
+A	publications/submissions/brian-hey-2026/experiment/run_synthetic_comparison.py
+A	publications/submissions/brian-hey-2026/figures/architecture-1.mmd
+A	publications/submissions/brian-hey-2026/figures/architecture-2.mmd
+A	publications/submissions/brian-hey-2026/figures/architecture-3.mmd
+A	publications/submissions/brian-hey-2026/figures/architecture-4.mmd
+A	publications/submissions/brian-hey-2026/figures/architecture-5.mmd
+A	publications/submissions/brian-hey-2026/figures/architecture-6.mmd
+A	publications/submissions/brian-hey-2026/figures/architecture-7.mmd
+A	publications/submissions/brian-hey-2026/scripts/build_submission.ps1
+A	publications/submissions/brian-hey-2026/scripts/postprocess_submission_docx.py
+A	publications/submissions/brian-hey-2026/scripts/puppeteer-config.json
+A	publications/submissions/brian-hey-2026/scripts/table_geometry.py
+A	publications/submissions/brian-hey-2026/submission_requirements.md
+A	publications/submissions/brian-hey-2026/validation/final_hashes.json
+A	publications/submissions/brian-hey-2026/validation/validate_submission.py
+A	whitepapers/telematics-relativities/BRIAN_HEY_PRIZE_2026_SUBMISSION_PLAN.md
+A	whitepapers/telematics-relativities/DETAILED_IMPLEMENTATION_PLAN.md
+A	whitepapers/telematics-relativities/IMPLEMENTATION_CORRECTION_LEDGER.md
+A	whitepapers/telematics-relativities/LINKEDIN_POST.md
+A	whitepapers/telematics-relativities/Mathematical_Derivations.md
+A	whitepapers/telematics-relativities/Semantic_Comparison_Notes.md
+A	whitepapers/telematics-relativities/assets/figure-1.mmd
+A	whitepapers/telematics-relativities/assets/figure-2.mmd
+A	whitepapers/telematics-relativities/assets/figure-3.mmd
+A	whitepapers/telematics-relativities/assets/figure-4.mmd
+A	whitepapers/telematics-relativities/assets/figure-5.mmd
+A	whitepapers/telematics-relativities/assets/figure-6.mmd
+A	whitepapers/telematics-relativities/assets/figure-7.mmd
+M	whitepapers/telematics-relativities/paper.md
+A	whitepapers/telematics-relativities/scripts/build_paper.ps1
+A	whitepapers/telematics-relativities/scripts/postprocess_docx.py
+A	whitepapers/telematics-relativities/scripts/puppeteer-config.json
+M	whitepapers/telematics-relativities/validate.py
+
+commit f408849f2396cd1f3d006eb7888fd6e04356c006
+Author:     TheAlchemistNerd <nevillemaloba@yahoo.com>
+AuthorDate: Thu Aug 27 18:57:35 2026 +0300
+Commit:     TheAlchemistNerd <nevillemaloba@yahoo.com>
+CommitDate: Thu Aug 27 18:57:35 2026 +0300
+
+    docs(publications): organize actuarial and social editions
+    
+    Place the standalone telematics-relativities paper, research note, drafting guide, outline, and validation source under whitepapers; move the shorter LinkedIn editions and their Mermaid source into publications. This separates long-form research from channel-specific adaptations.
+
+A	whitepapers/telematics-relativities/guide.md
+A	whitepapers/telematics-relativities/outline.md
+A	whitepapers/telematics-relativities/paper.md
+A	whitepapers/telematics-relativities/research-note.md
+A	whitepapers/telematics-relativities/validate.py

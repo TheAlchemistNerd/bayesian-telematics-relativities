@@ -1,0 +1,14 @@
+flowchart TB
+    subgraph A0[Experience and posterior]
+        direction LR
+        A[Prior portfolio and<br/>group distributions] --> B[Earn exposure]
+        B --> C[Observe claims and<br/>claim development]
+        C --> D[Update sufficient<br/>statistics and hierarchy]
+    end
+    subgraph B0[Decision and monitoring]
+        direction RL
+        G[Monitor outcomes,<br/>drift and fairness] --> F[Calibrate relativities<br/>and decisions]
+        F --> E[Posterior predictive<br/>loss distribution]
+    end
+    D --> E
+    G --> A

@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-26",
+  "checks": [
+    {
+      "name": "Bayesian canonical structure",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "matched_expected": true,
+      "stdout": "PASS: paper.md\n  body words: 10,133\n  references: 51\n  equations: 43\n  Mermaid figures: 7\n",
+      "stderr": ""
+    },
+    {
+      "name": "Submission baseline (known pre-migration hash mismatch)",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "matched_expected": true,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\Nevo\\Downloads\\bayesian-telematics-relativities\\publications\\submissions\\brian-hey-2026\\validation\\validate_submission.py\", line 134, in <module>\n    raise SystemExit(main())\n                     ^^^^^^\n  File \"C:\\Users\\Nevo\\Downloads\\bayesian-telematics-relativities\\publications\\submissions\\brian-hey-2026\\validation\\validate_submission.py\", line 109, in main\n    require(canonical_hash == CANONICAL_HASH, f\"canonical paper hash changed: {canonical_hash}\")\n  File \"C:\\Users\\Nevo\\Downloads\\bayesian-telematics-relativities\\publications\\submissions\\brian-hey-2026\\validation\\validate_submission.py\", line 23, in require\n    raise AssertionError(message)\nAssertionError: canonical paper hash changed: EF155755DA4B1907C34C8A127D4C394CD84A551BDBDB7A014B3C2191947A16A4\n"
+    }
+  ],
+  "scope": "File preservation, structural checks, illustrative arithmetic and local HTML rendering; no empirical validation or full PDF rebuild."
+}

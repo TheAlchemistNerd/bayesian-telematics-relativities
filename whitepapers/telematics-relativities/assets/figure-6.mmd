@@ -1,0 +1,12 @@
+flowchart TB
+    A[Gross predictive loss<br/>frequency, severity and dependence] --> B[Apply treaty terms<br/>attachments, limits and commissions]
+    B --> C1[Gross loss and reserve]
+    B --> C2[Ceded loss and recoverable]
+    B --> C3[Net retained loss]
+    C2 --> D[Counterparty, collateral<br/>and collection adjustment]
+    C3 --> E[Net reserve and<br/>one-year capital]
+    D --> E
+    E --> F[Capital allocation,<br/>RAROC and pricing]
+    F --> G[Renew retention,<br/>restructure or purchase]
+    G --> B
+
