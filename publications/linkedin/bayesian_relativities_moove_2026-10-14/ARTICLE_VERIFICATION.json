@@ -1,0 +1,78 @@
+{
+  "article": {
+    "file": "BAYESIAN_RELATIVITIES_X_MOOVE_LINKEDIN_ARTICLE_3000_WORDS.md",
+    "body_word_count": 3000,
+    "word_count_method": "Unicode letter/number tokens within ARTICLE_BODY markers; apostrophe- and hyphen-connected tokens count as one; section headings, research questions, and displayed equations are included; citation markers, numbered list labels, title, byline, references, and publication record are excluded.",
+    "citation_sequence": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "mathematical_audit": {
+      "displayed_equations_on_separate_lines": true,
+      "symbols_defined_in_equation_or_adjacent_text": true,
+      "expected_loss_relativity_separated_from_commercial_premium": true,
+      "neutral_tariff_allocation_separated_from_frequency_intervention": true,
+      "insurer_operator_driver_ledgers_separated": true
+    },
+    "licence": "CC BY-NC-SA 4.0",
+    "research_questions": 3
+  },
+  "linkedin_post": {
+    "file": "BAYESIAN_RELATIVITIES_X_MOOVE_LINKEDIN_POST_2000_CHARACTERS.md",
+    "characters_excluding_terminal_newline": 1969,
+    "characters_including_terminal_newline": 1970,
+    "limit": 2000,
+    "count_includes_markdown_syntax_urls_and_hashtags": true
+  },
+  "profit_case": {
+    "case_status": "hypothetical synthetic KES illustration; no Moove, insurer, broker, or driver portfolio data",
+    "posterior_draws": 12000,
+    "predictive_paths": 8000,
+    "seed": 20261014,
+    "automated_checks_passed": 8,
+    "gross_to_net_claim_reconciliation_error_kes": 0,
+    "common_shock": {
+      "annual_probability": 0.02,
+      "frequency_multiplier": 1.8,
+      "severity_multiplier": 1.25,
+      "expected_loss_multiplier": 1.025,
+      "shared_portfolio_draw": true
+    },
+    "selected_corrected_results": {
+      "expected_pure_loss_per_vehicle_year_kes": 67740,
+      "expected_driving_loss_per_vehicle_year_kes": 55440,
+      "expected_non_driving_loss_per_vehicle_year_kes": 12300,
+      "neutral_stable_annual_premium_kes": 113988,
+      "neutral_volatile_annual_premium_kes": 167360,
+      "weighted_flat_and_neutral_premium_per_vehicle_kes": 130000,
+      "intervention_expected_loss_saving_per_volatile_vehicle_kes": 9280,
+      "intervention_premium_reduction_per_volatile_vehicle_kes": 6960,
+      "operator_funded_driver_incentive_per_volatile_vehicle_kes": 2320,
+      "intervention_weighted_portfolio_premium_per_vehicle_kes": 127912,
+      "flat_neutral_mean_insurer_profit_after_capital_kes": 1307000,
+      "flat_neutral_profit_90_percent_predictive_interval_kes": [-1158000, 3434000],
+      "intervention_mean_insurer_profit_after_capital_kes": 1442000,
+      "intervention_profit_90_percent_predictive_interval_kes": [-1048000, 3518000],
+      "flat_neutral_loss_probability": 0.158,
+      "intervention_loss_probability": 0.134125,
+      "flat_neutral_gross_break_even_premium_per_vehicle_kes": 107852,
+      "intervention_gross_break_even_premium_per_vehicle_kes": 103473
+    },
+    "operator_driver_case": {
+      "flat_standard_repair_fleet_downtime_days": 344.95,
+      "flat_operator_contribution_before_capex_debt_tax_depreciation_kes": 102598773,
+      "flat_driver_take_home_per_vehicle_year_kes": 136289,
+      "intervention_standard_repair_fleet_downtime_days": 329.61,
+      "intervention_operator_contribution_before_capex_debt_tax_depreciation_kes": 102673285,
+      "intervention_driver_take_home_per_vehicle_year_kes": 138905,
+      "two_day_repair_fleet_downtime_days": 58.61,
+      "two_day_repair_operator_contribution_before_capex_debt_tax_depreciation_kes": 102451901,
+      "two_day_repair_driver_take_home_per_vehicle_year_kes": 152651,
+      "two_day_repair_expedite_surcharge_kes": 146871
+    },
+    "mwendo_156_week_bridge": {
+      "neutral_stable_weekly_package_adjustment_kes": -153.96,
+      "neutral_volatile_weekly_package_adjustment_kes": 359.23,
+      "intervention_volatile_weekly_package_adjustment_kes": 247.70
+    },
+    "tail_resolution_note": "At 8,000 predictive paths, roughly 40 observations lie beyond the empirical 99.5% quantile. VaR/TVaR are coarse illustrative economic-capital estimates, not regulatory capital results.",
+    "mwendo_case_scope": "The existing 156-week one-vehicle operating and financing case remains a separate bridge. Its repair event is not aggregated with the 100-vehicle annual insurance portfolio."
+  }
+}

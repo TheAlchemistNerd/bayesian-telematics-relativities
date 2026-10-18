@@ -1,0 +1,82 @@
+{
+  "case_status": "Hypothetical reproducible research case. No Moove, insurer, broker, or driver portfolio data were used.",
+  "currency": "KES",
+  "model_date": "2026-10-14",
+  "portfolio": {
+    "vehicles": 100,
+    "cohort_shares": {"stable": 0.7, "volatile": 0.3},
+    "annual_km_per_vehicle": 36000,
+    "calendar_days": 360,
+    "days_per_month": 30,
+    "base_claims_per_10000_km": 0.08,
+    "base_insured_severity": 180000,
+    "non_driving_claims_per_vehicle_year": 0.04,
+    "non_driving_mean_severity": 300000
+  },
+  "synthetic_history": {
+    "history_vehicle_years": 300,
+    "groups": {
+      "stable": {"share": 0.7, "exposure_units_10000_km": 756, "claims": 47, "mean_ultimate_insured_severity": 170000},
+      "volatile": {"share": 0.3, "exposure_units_10000_km": 324, "claims": 41, "mean_ultimate_insured_severity": 205000}
+    },
+    "frequency_prior": {"shape": 2.0, "rate": 2.0},
+    "severity_prior": {"shape": 4.0, "scale": 3.0},
+    "severity_gamma_shape": 2.0,
+    "history_note": "Author-selected sufficient statistics representing three years for a hypothetical 100-vehicle portfolio. Claim amounts are assumed fully developed and expressed on the insurer-indemnity basis."
+  },
+  "pricing": {
+    "annual_commercial_premium_per_vehicle": 130000,
+    "non_driving_pure_premium_per_vehicle": 12000,
+    "premium_pass_through_to_driver": 0.5,
+    "intervention_frequency_reduction_volatile": 0.1,
+    "premium_share_of_validated_saving": 0.75,
+    "driver_incentive_share_of_volatile_group_saving": 0.25
+  },
+  "insurer": {
+    "quota_share": 0.2,
+    "ceding_commission": 0.25,
+    "operating_expense_ratio": 0.26,
+    "claim_expense_ratio": 0.03,
+    "cost_of_capital_rate": 0.1,
+    "annual_economic_capital_quantile": 0.995,
+    "annual_discount_rate": 0.1,
+    "premium_earning_and_collection_timing": "Equal monthly instalments earned and collected in coverage months 1-12.",
+    "claim_expense_cash_timing": "Claim expense is paid with claim settlement; reserving is measured at the end of month 12.",
+    "reporting_delay_months": {"values": [1, 2, 3], "probabilities": [0.6, 0.3, 0.1]},
+    "settlement_delay_after_report_months": {"values": [1, 2, 3, 6, 9], "probabilities": [0.35, 0.3, 0.2, 0.1, 0.05]},
+    "reinsurance_recovery_delay_months": 2,
+    "common_shock_probability": 0.02,
+    "common_shock_frequency_multiplier": 1.8,
+    "common_shock_severity_multiplier": 1.25
+  },
+  "moove_driver_economics": {
+    "weekly_gross_fares": 70000,
+    "platform_fraction": 0.2,
+    "weekly_energy_cash": 16000,
+    "weekly_household_need": 12000,
+    "weekly_package_due": 25000,
+    "weekly_routine_maintenance": 1800,
+    "weekly_administration": 800,
+    "operator_retention_per_driving_claim": 30000,
+    "driver_excess_per_claim": 0,
+    "driver_excess_sensitivity": [0, 5000, 10000],
+    "standard_repair_downtime_days": 12,
+    "expedited_repair_downtime_days": 2,
+    "expedited_repair_surcharge_per_claim": 5000,
+    "operator_annual_discount_rate": 0.18,
+    "driver_annual_discount_rate": 0.1,
+    "collections_note": "Expected portfolio ledger assumes scheduled package cash is collected. Delinquency, cure and household liquidity are assessed separately by running the unchanged 156-week Mwendo case for each profile and repair scenario."
+  },
+  "computation": {
+    "posterior_draws": 12000,
+    "predictive_simulations": 8000,
+    "random_seed": 20261014,
+    "quantile_levels": [0.05, 0.5, 0.95],
+    "break_even_premium_sensitivity": [110000, 120000, 130000, 140000, 150000]
+  },
+  "integration": {
+    "existing_mwendo_case_path": "../mwendo-pamoja-continuous-underwriting/research_lab/mobility_fleet_case",
+    "baseline_insurance_premium_every_52_weeks": 130000,
+    "integration_rule": "The existing case's 12-day and 2-day repair scenarios supply the operating bridge. Portfolio claim downtime is a separate annual fleet projection. Do not add portfolio downtime to the one-claim Mwendo repair ledger or count one repair invoice in both ledgers."
+  }
+}

@@ -1,0 +1,1544 @@
+{
+  "currency": "KES",
+  "status": "Hypothetical reproducible research case. No Moove, insurer, broker, or driver portfolio data were used.",
+  "posterior_summary": {
+    "stable": {
+      "claims": 47,
+      "historical_exposure_10000_km": 756,
+      "frequency_posterior_mean": 0.7842509603072982,
+      "frequency_credibility_weight": 0.967989756722151,
+      "severity_posterior_mean": 0.9461626575028637,
+      "frequency_interval_90": [
+        0.6061074042290107,
+        0.9795915290392118
+      ],
+      "severity_interval_90": [
+        0.7999794870252691,
+        1.1140380131865495
+      ],
+      "raw_joint_interval_90": [
+        0.5465687830119741,
+        0.969228144469137
+      ],
+      "calibrated_joint_interval_90": [
+        0.5614508603417172,
+        0.858940456976979
+      ],
+      "driving_loss_interval_90": [
+        29042.47885412426,
+        51500.90668451206
+      ]
+    },
+    "volatile": {
+      "claims": 41,
+      "historical_exposure_10000_km": 324,
+      "frequency_posterior_mean": 1.5401146131805157,
+      "frequency_credibility_weight": 0.9283667621776505,
+      "severity_posterior_mean": 1.1339869281045751,
+      "frequency_interval_90": [
+        1.1842720593064309,
+        1.9525956975739873
+      ],
+      "severity_interval_90": [
+        0.9453193722747674,
+        1.3514711963019654
+      ],
+      "raw_joint_interval_90": [
+        1.264235247069622,
+        2.3276129149539266
+      ],
+      "calibrated_joint_interval_90": [
+        1.3291389337203823,
+        2.023281325869326
+      ],
+      "driving_loss_interval_90": [
+        67176.40408829146,
+        123680.03984899186
+      ]
+    }
+  },
+  "pricing_and_normalisation": {
+    "base_driving_pure_premium": 51840.00000000001,
+    "posterior_estimated_portfolio_driving_loss": 55440.042458958116,
+    "base_non_driving_pure_premium": 12000,
+    "expected_non_driving_loss_including_common_shock": 12299.999999999998,
+    "common_shock_expected_loss_factor": 1.025,
+    "common_shock_expected_frequency_factor": 1.016,
+    "posterior_estimated_total_pure_loss": 67740.04245895811,
+    "fixed_commercial_layer": 62259.95754104189,
+    "portfolio_baseline_premium": 130000,
+    "joint_normaliser": 1.04336123266633,
+    "neutral_portfolio_premium": 130000.0,
+    "intervention_portfolio_premium": 127911.99051913028,
+    "portfolio_expected_driving_loss_saving": 2784.012641159615,
+    "portfolio_premium_reduction": 2088.0094808697177,
+    "premium_pass_through_to_driver": 0.5,
+    "groups": {
+      "stable": {
+        "share": 0.7,
+        "frequency_posterior_mean": 0.7842509603072982,
+        "severity_posterior_mean": 0.9461626575028637,
+        "raw_joint_factor": 0.7420289727535262,
+        "calibrated_joint_factor": 0.7111908603861548,
+        "expected_driving_pure_premium": 39428.45149623138,
+        "expected_non_driving_pure_premium": 12299.999999999998,
+        "expected_total_pure_premium": 51728.45149623138,
+        "flat_commercial_premium": 130000,
+        "neutral_relativity_premium": 113988.40903727326,
+        "intervention_commercial_premium": 113988.40903727326,
+        "expected_claim_frequency_per_vehicle_year": 0.22947810499359794
+      },
+      "volatile": {
+        "share": 0.3,
+        "frequency_posterior_mean": 1.5401146131805157,
+        "severity_posterior_mean": 1.1339869281045751,
+        "raw_joint_factor": 1.746469839129539,
+        "calibrated_joint_factor": 1.6738879924323058,
+        "expected_driving_pure_premium": 92800.42137198719,
+        "expected_non_driving_pure_premium": 12299.999999999998,
+        "expected_total_pure_premium": 105100.42137198719,
+        "flat_commercial_premium": 130000,
+        "neutral_relativity_premium": 167360.3789130291,
+        "intervention_commercial_premium": 160400.34731013005,
+        "expected_claim_frequency_per_vehicle_year": 0.45064985673352437,
+        "intervention_expected_driving_pure_premium": 83520.37923478847,
+        "intervention_expected_claim_frequency_per_vehicle_year": 0.40558487106017194,
+        "expected_loss_saving_per_volatile_vehicle": 9280.04213719872,
+        "premium_reduction_per_volatile_vehicle": 6960.03160289904,
+        "driver_incentive_per_volatile_vehicle": 2320.01053429968
+      }
+    }
+  },
+  "simulation_summaries": {
+    "flat": {
+      "plan": "flat",
+      "portfolio_vehicles": 100,
+      "annual_gross_premium": 13000000,
+      "mean_gross_ultimate_claims": 6738575.388253965,
+      "mean_driving_ultimate_claims": 5512545.7489745505,
+      "mean_non_driving_ultimate_claims": 1226029.6392794147,
+      "mean_net_ultimate_claims": 5390860.3106031725,
+      "predictive_net_claims_interval_90": [
+        3340745.595342406,
+        7766291.358880583
+      ],
+      "predictive_net_claims_median": 5217754.189298278,
+      "net_claims_var_at_selected_quantile": 13093277.39754877,
+      "net_claims_tvar_at_selected_quantile": 14491433.209675167,
+      "economic_capital_var_minus_mean": 7702417.086945598,
+      "annual_cost_of_capital": 770241.7086945599,
+      "mean_claim_expense": 202157.26164761896,
+      "annual_operating_expense": 3380000.0,
+      "annual_net_reinsurance_premium": 1950000.0,
+      "mean_expected_profit_after_capital": 1306740.719054649,
+      "profit_after_capital_predictive_interval_90": [
+        -1157768.9935331682,
+        3433734.736137693
+      ],
+      "probability_profit_after_capital_below_zero": 0.158,
+      "break_even_annual_premium_per_vehicle": 107851.85221941274,
+      "mean_driving_claim_count": 29.37425,
+      "mean_non_driving_claim_count": 4.049375,
+      "mean_gross_claims_paid_by_year_end": 4436669.955510713,
+      "mean_reported_outstanding_at_year_end": 1462212.9960033784,
+      "mean_ibnr_at_year_end": 839692.4367398727,
+      "mean_total_outstanding_at_year_end": 2301905.4327432513,
+      "mean_ceded_recoverable_at_year_end": 682600.8121485967,
+      "max_claim_reconciliation_error": 0.0,
+      "simulated_common_shock_frequency": 0.019,
+      "driver_excess_sensitivity_by_group": {
+        "stable": [
+          {
+            "driver_excess_per_claim": 0,
+            "expected_driver_excess_per_vehicle_year": 0.0,
+            "expected_operator_net_retention_per_vehicle_year": 6884.343149807938
+          },
+          {
+            "driver_excess_per_claim": 5000,
+            "expected_driver_excess_per_vehicle_year": 1147.3905249679897,
+            "expected_operator_net_retention_per_vehicle_year": 5736.952624839949
+          },
+          {
+            "driver_excess_per_claim": 10000,
+            "expected_driver_excess_per_vehicle_year": 2294.7810499359794,
+            "expected_operator_net_retention_per_vehicle_year": 4589.562099871959
+          }
+        ],
+        "volatile": [
+          {
+            "driver_excess_per_claim": 0,
+            "expected_driver_excess_per_vehicle_year": 0.0,
+            "expected_operator_net_retention_per_vehicle_year": 13519.495702005732
+          },
+          {
+            "driver_excess_per_claim": 5000,
+            "expected_driver_excess_per_vehicle_year": 2253.249283667622,
+            "expected_operator_net_retention_per_vehicle_year": 11266.246418338109
+          },
+          {
+            "driver_excess_per_claim": 10000,
+            "expected_driver_excess_per_vehicle_year": 4506.498567335244,
+            "expected_operator_net_retention_per_vehicle_year": 9012.997134670488
+          }
+        ]
+      },
+      "insurer_cash_npv_after_capital": 1390956.129176101,
+      "moove_driver_standard_repair_12_days": {
+        "fleet_downtime_days": 344.949,
+        "moove_gross_retention": 881227.5,
+        "driver_excess_paid_to_moove": 0.0,
+        "moove_net_retention": 881227.5,
+        "expedited_repair_surcharge": 0.0,
+        "package_cash_assuming_full_collection": 129999999.99999999,
+        "insurance_premium_cash": 13000000.000000002,
+        "maintenance_and_admin_cash": 13519999.999999998,
+        "moove_contribution_before_vehicle_capex_debt_tax_depreciation": 102598772.49999999,
+        "moove_npv": 93906935.36927678,
+        "driver_take_home_after_household_package_downtime_excess": 13628862.857142856,
+        "driver_npv": 12949056.8422718,
+        "moove_contribution_per_vehicle_year": 1025987.7249999999,
+        "driver_take_home_per_vehicle_year": 136288.62857142856,
+        "fleet_downtime_days_per_vehicle_year": 3.44949,
+        "monthly": [
+          {
+            "month": 1,
+            "moove_cash": 8548753.333333332,
+            "driver_cash": 1161338.5714285714,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 138661.4285714286,
+            "incentive": 0.0
+          },
+          {
+            "month": 2,
+            "moove_cash": 8549503.333333332,
+            "driver_cash": 1131570.714285714,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 168429.28571428574,
+            "incentive": 0.0
+          },
+          {
+            "month": 3,
+            "moove_cash": 8549990.833333332,
+            "driver_cash": 1134180.714285714,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 165819.28571428574,
+            "incentive": 0.0
+          },
+          {
+            "month": 4,
+            "moove_cash": 8549713.333333332,
+            "driver_cash": 1132801.4285714286,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 167198.57142857142,
+            "incentive": 0.0
+          },
+          {
+            "month": 5,
+            "moove_cash": 8550125.833333332,
+            "driver_cash": 1132819.2857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 167180.7142857143,
+            "incentive": 0.0
+          },
+          {
+            "month": 6,
+            "moove_cash": 8550729.583333332,
+            "driver_cash": 1134777.857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 165222.14285714287,
+            "incentive": 0.0
+          },
+          {
+            "month": 7,
+            "moove_cash": 8550107.083333332,
+            "driver_cash": 1134416.4285714286,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 165583.57142857142,
+            "incentive": 0.0
+          },
+          {
+            "month": 8,
+            "moove_cash": 8549589.583333332,
+            "driver_cash": 1132351.4285714286,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 167648.57142857142,
+            "incentive": 0.0
+          },
+          {
+            "month": 9,
+            "moove_cash": 8549473.333333332,
+            "driver_cash": 1132456.4285714286,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 167543.57142857142,
+            "incentive": 0.0
+          },
+          {
+            "month": 10,
+            "moove_cash": 8550602.083333332,
+            "driver_cash": 1133640.714285714,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 166359.28571428574,
+            "incentive": 0.0
+          },
+          {
+            "month": 11,
+            "moove_cash": 8550755.833333332,
+            "driver_cash": 1135267.857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 164732.14285714287,
+            "incentive": 0.0
+          },
+          {
+            "month": 12,
+            "moove_cash": 8549428.333333332,
+            "driver_cash": 1133241.4285714286,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 166758.57142857142,
+            "incentive": 0.0
+          }
+        ]
+      },
+      "moove_driver_expedited_repair_2_days": {
+        "fleet_downtime_days": 58.6065,
+        "moove_gross_retention": 881227.5,
+        "driver_excess_paid_to_moove": 0.0,
+        "moove_net_retention": 881227.5,
+        "expedited_repair_surcharge": 146871.25,
+        "package_cash_assuming_full_collection": 129999999.99999999,
+        "insurance_premium_cash": 13000000.000000002,
+        "maintenance_and_admin_cash": 13519999.999999998,
+        "moove_contribution_before_vehicle_capex_debt_tax_depreciation": 102451901.24999999,
+        "moove_npv": 93772485.35796458,
+        "driver_take_home_after_household_package_downtime_excess": 15265105.714285715,
+        "driver_npv": 14502462.825395582,
+        "moove_contribution_per_vehicle_year": 1024519.0124999998,
+        "driver_take_home_per_vehicle_year": 152651.05714285714,
+        "fleet_downtime_days_per_vehicle_year": 0.586065,
+        "monthly": [
+          {
+            "month": 1,
+            "moove_cash": 8536323.333333332,
+            "driver_cash": 1272086.4285714286,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27913.571428571428,
+            "incentive": 0.0
+          },
+          {
+            "month": 2,
+            "moove_cash": 8537198.333333332,
+            "driver_cash": 1271910.7142857143,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 28089.285714285717,
+            "incentive": 0.0
+          },
+          {
+            "month": 3,
+            "moove_cash": 8537767.083333332,
+            "driver_cash": 1272074.2857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27925.714285714286,
+            "incentive": 0.0
+          },
+          {
+            "month": 4,
+            "moove_cash": 8537443.333333332,
+            "driver_cash": 1272017.857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27982.14285714286,
+            "incentive": 0.0
+          },
+          {
+            "month": 5,
+            "moove_cash": 8537924.583333332,
+            "driver_cash": 1272085.0,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27915.000000000004,
+            "incentive": 0.0
+          },
+          {
+            "month": 6,
+            "moove_cash": 8538628.958333332,
+            "driver_cash": 1272420.0,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27580.000000000004,
+            "incentive": 0.0
+          },
+          {
+            "month": 7,
+            "moove_cash": 8537902.708333332,
+            "driver_cash": 1272123.5714285714,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27876.428571428576,
+            "incentive": 0.0
+          },
+          {
+            "month": 8,
+            "moove_cash": 8537298.958333332,
+            "driver_cash": 1271929.2857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 28070.714285714286,
+            "incentive": 0.0
+          },
+          {
+            "month": 9,
+            "moove_cash": 8537163.333333332,
+            "driver_cash": 1271898.5714285714,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 28101.428571428576,
+            "incentive": 0.0
+          },
+          {
+            "month": 10,
+            "moove_cash": 8538480.208333332,
+            "driver_cash": 1272315.7142857143,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27684.285714285717,
+            "incentive": 0.0
+          },
+          {
+            "month": 11,
+            "moove_cash": 8538659.583333332,
+            "driver_cash": 1272369.2857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27630.714285714286,
+            "incentive": 0.0
+          },
+          {
+            "month": 12,
+            "moove_cash": 8537110.833333332,
+            "driver_cash": 1271875.0,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 28125.000000000004,
+            "incentive": 0.0
+          }
+        ]
+      },
+      "premium_sensitivity": [
+        {
+          "premium_per_vehicle": 110000,
+          "expected_profit_after_capital": 126740.71905464865
+        },
+        {
+          "premium_per_vehicle": 120000,
+          "expected_profit_after_capital": 716740.7190546488
+        },
+        {
+          "premium_per_vehicle": 130000,
+          "expected_profit_after_capital": 1306740.7190546487
+        },
+        {
+          "premium_per_vehicle": 140000,
+          "expected_profit_after_capital": 1896740.7190546487
+        },
+        {
+          "premium_per_vehicle": 150000,
+          "expected_profit_after_capital": 2486740.7190546487
+        }
+      ]
+    },
+    "neutral_relativity": {
+      "plan": "neutral_relativity",
+      "portfolio_vehicles": 100,
+      "annual_gross_premium": 13000000.0,
+      "mean_gross_ultimate_claims": 6738575.388253965,
+      "mean_driving_ultimate_claims": 5512545.7489745505,
+      "mean_non_driving_ultimate_claims": 1226029.6392794147,
+      "mean_net_ultimate_claims": 5390860.3106031725,
+      "predictive_net_claims_interval_90": [
+        3340745.595342406,
+        7766291.358880583
+      ],
+      "predictive_net_claims_median": 5217754.189298278,
+      "net_claims_var_at_selected_quantile": 13093277.39754877,
+      "net_claims_tvar_at_selected_quantile": 14491433.209675167,
+      "economic_capital_var_minus_mean": 7702417.086945598,
+      "annual_cost_of_capital": 770241.7086945599,
+      "mean_claim_expense": 202157.26164761896,
+      "annual_operating_expense": 3380000.0,
+      "annual_net_reinsurance_premium": 1950000.0,
+      "mean_expected_profit_after_capital": 1306740.719054649,
+      "profit_after_capital_predictive_interval_90": [
+        -1157768.9935331682,
+        3433734.736137693
+      ],
+      "probability_profit_after_capital_below_zero": 0.158,
+      "break_even_annual_premium_per_vehicle": 107851.85221941274,
+      "mean_driving_claim_count": 29.37425,
+      "mean_non_driving_claim_count": 4.049375,
+      "mean_gross_claims_paid_by_year_end": 4436669.955510713,
+      "mean_reported_outstanding_at_year_end": 1462212.9960033784,
+      "mean_ibnr_at_year_end": 839692.4367398727,
+      "mean_total_outstanding_at_year_end": 2301905.4327432513,
+      "mean_ceded_recoverable_at_year_end": 682600.8121485967,
+      "max_claim_reconciliation_error": 0.0,
+      "simulated_common_shock_frequency": 0.019,
+      "driver_excess_sensitivity_by_group": {
+        "stable": [
+          {
+            "driver_excess_per_claim": 0,
+            "expected_driver_excess_per_vehicle_year": 0.0,
+            "expected_operator_net_retention_per_vehicle_year": 6884.343149807938
+          },
+          {
+            "driver_excess_per_claim": 5000,
+            "expected_driver_excess_per_vehicle_year": 1147.3905249679897,
+            "expected_operator_net_retention_per_vehicle_year": 5736.952624839949
+          },
+          {
+            "driver_excess_per_claim": 10000,
+            "expected_driver_excess_per_vehicle_year": 2294.7810499359794,
+            "expected_operator_net_retention_per_vehicle_year": 4589.562099871959
+          }
+        ],
+        "volatile": [
+          {
+            "driver_excess_per_claim": 0,
+            "expected_driver_excess_per_vehicle_year": 0.0,
+            "expected_operator_net_retention_per_vehicle_year": 13519.495702005732
+          },
+          {
+            "driver_excess_per_claim": 5000,
+            "expected_driver_excess_per_vehicle_year": 2253.249283667622,
+            "expected_operator_net_retention_per_vehicle_year": 11266.246418338109
+          },
+          {
+            "driver_excess_per_claim": 10000,
+            "expected_driver_excess_per_vehicle_year": 4506.498567335244,
+            "expected_operator_net_retention_per_vehicle_year": 9012.997134670488
+          }
+        ]
+      },
+      "insurer_cash_npv_after_capital": 1390956.129176101,
+      "moove_driver_standard_repair_12_days": {
+        "fleet_downtime_days": 344.949,
+        "moove_gross_retention": 881227.5,
+        "driver_excess_paid_to_moove": 0.0,
+        "moove_net_retention": 881227.5,
+        "expedited_repair_surcharge": 0.0,
+        "package_cash_assuming_full_collection": 129999999.99999999,
+        "insurance_premium_cash": 13000000.000000002,
+        "maintenance_and_admin_cash": 13519999.999999998,
+        "moove_contribution_before_vehicle_capex_debt_tax_depreciation": 102598772.49999999,
+        "moove_npv": 93906935.36927678,
+        "driver_take_home_after_household_package_downtime_excess": 13628862.857142856,
+        "driver_npv": 12949056.8422718,
+        "moove_contribution_per_vehicle_year": 1025987.7249999999,
+        "driver_take_home_per_vehicle_year": 136288.62857142856,
+        "fleet_downtime_days_per_vehicle_year": 3.44949,
+        "monthly": [
+          {
+            "month": 1,
+            "moove_cash": 8548753.333333332,
+            "driver_cash": 1161338.5714285714,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 138661.4285714286,
+            "incentive": 0.0
+          },
+          {
+            "month": 2,
+            "moove_cash": 8549503.333333332,
+            "driver_cash": 1131570.714285714,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 168429.28571428574,
+            "incentive": 0.0
+          },
+          {
+            "month": 3,
+            "moove_cash": 8549990.833333332,
+            "driver_cash": 1134180.714285714,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 165819.28571428574,
+            "incentive": 0.0
+          },
+          {
+            "month": 4,
+            "moove_cash": 8549713.333333332,
+            "driver_cash": 1132801.4285714286,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 167198.57142857142,
+            "incentive": 0.0
+          },
+          {
+            "month": 5,
+            "moove_cash": 8550125.833333332,
+            "driver_cash": 1132819.2857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 167180.7142857143,
+            "incentive": 0.0
+          },
+          {
+            "month": 6,
+            "moove_cash": 8550729.583333332,
+            "driver_cash": 1134777.857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 165222.14285714287,
+            "incentive": 0.0
+          },
+          {
+            "month": 7,
+            "moove_cash": 8550107.083333332,
+            "driver_cash": 1134416.4285714286,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 165583.57142857142,
+            "incentive": 0.0
+          },
+          {
+            "month": 8,
+            "moove_cash": 8549589.583333332,
+            "driver_cash": 1132351.4285714286,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 167648.57142857142,
+            "incentive": 0.0
+          },
+          {
+            "month": 9,
+            "moove_cash": 8549473.333333332,
+            "driver_cash": 1132456.4285714286,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 167543.57142857142,
+            "incentive": 0.0
+          },
+          {
+            "month": 10,
+            "moove_cash": 8550602.083333332,
+            "driver_cash": 1133640.714285714,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 166359.28571428574,
+            "incentive": 0.0
+          },
+          {
+            "month": 11,
+            "moove_cash": 8550755.833333332,
+            "driver_cash": 1135267.857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 164732.14285714287,
+            "incentive": 0.0
+          },
+          {
+            "month": 12,
+            "moove_cash": 8549428.333333332,
+            "driver_cash": 1133241.4285714286,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 166758.57142857142,
+            "incentive": 0.0
+          }
+        ]
+      },
+      "moove_driver_expedited_repair_2_days": {
+        "fleet_downtime_days": 58.6065,
+        "moove_gross_retention": 881227.5,
+        "driver_excess_paid_to_moove": 0.0,
+        "moove_net_retention": 881227.5,
+        "expedited_repair_surcharge": 146871.25,
+        "package_cash_assuming_full_collection": 129999999.99999999,
+        "insurance_premium_cash": 13000000.000000002,
+        "maintenance_and_admin_cash": 13519999.999999998,
+        "moove_contribution_before_vehicle_capex_debt_tax_depreciation": 102451901.24999999,
+        "moove_npv": 93772485.35796458,
+        "driver_take_home_after_household_package_downtime_excess": 15265105.714285715,
+        "driver_npv": 14502462.825395582,
+        "moove_contribution_per_vehicle_year": 1024519.0124999998,
+        "driver_take_home_per_vehicle_year": 152651.05714285714,
+        "fleet_downtime_days_per_vehicle_year": 0.586065,
+        "monthly": [
+          {
+            "month": 1,
+            "moove_cash": 8536323.333333332,
+            "driver_cash": 1272086.4285714286,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27913.571428571428,
+            "incentive": 0.0
+          },
+          {
+            "month": 2,
+            "moove_cash": 8537198.333333332,
+            "driver_cash": 1271910.7142857143,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 28089.285714285717,
+            "incentive": 0.0
+          },
+          {
+            "month": 3,
+            "moove_cash": 8537767.083333332,
+            "driver_cash": 1272074.2857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27925.714285714286,
+            "incentive": 0.0
+          },
+          {
+            "month": 4,
+            "moove_cash": 8537443.333333332,
+            "driver_cash": 1272017.857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27982.14285714286,
+            "incentive": 0.0
+          },
+          {
+            "month": 5,
+            "moove_cash": 8537924.583333332,
+            "driver_cash": 1272085.0,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27915.000000000004,
+            "incentive": 0.0
+          },
+          {
+            "month": 6,
+            "moove_cash": 8538628.958333332,
+            "driver_cash": 1272420.0,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27580.000000000004,
+            "incentive": 0.0
+          },
+          {
+            "month": 7,
+            "moove_cash": 8537902.708333332,
+            "driver_cash": 1272123.5714285714,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27876.428571428576,
+            "incentive": 0.0
+          },
+          {
+            "month": 8,
+            "moove_cash": 8537298.958333332,
+            "driver_cash": 1271929.2857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 28070.714285714286,
+            "incentive": 0.0
+          },
+          {
+            "month": 9,
+            "moove_cash": 8537163.333333332,
+            "driver_cash": 1271898.5714285714,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 28101.428571428576,
+            "incentive": 0.0
+          },
+          {
+            "month": 10,
+            "moove_cash": 8538480.208333332,
+            "driver_cash": 1272315.7142857143,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27684.285714285717,
+            "incentive": 0.0
+          },
+          {
+            "month": 11,
+            "moove_cash": 8538659.583333332,
+            "driver_cash": 1272369.2857142857,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 27630.714285714286,
+            "incentive": 0.0
+          },
+          {
+            "month": 12,
+            "moove_cash": 8537110.833333332,
+            "driver_cash": 1271875.0,
+            "package": 10833333.333333332,
+            "premium": 1083333.3333333335,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 28125.000000000004,
+            "incentive": 0.0
+          }
+        ]
+      },
+      "premium_sensitivity": [
+        {
+          "premium_per_vehicle": 110000,
+          "expected_profit_after_capital": 126740.71905464865
+        },
+        {
+          "premium_per_vehicle": 120000,
+          "expected_profit_after_capital": 716740.7190546488
+        },
+        {
+          "premium_per_vehicle": 130000,
+          "expected_profit_after_capital": 1306740.7190546487
+        },
+        {
+          "premium_per_vehicle": 140000,
+          "expected_profit_after_capital": 1896740.7190546487
+        },
+        {
+          "premium_per_vehicle": 150000,
+          "expected_profit_after_capital": 2486740.7190546487
+        }
+      ]
+    },
+    "intervention": {
+      "plan": "intervention",
+      "portfolio_vehicles": 100,
+      "annual_gross_premium": 12791199.05191303,
+      "mean_gross_ultimate_claims": 6468800.849088599,
+      "mean_driving_ultimate_claims": 5241476.957944513,
+      "mean_non_driving_ultimate_claims": 1227323.8911440864,
+      "mean_net_ultimate_claims": 5175040.679270879,
+      "predictive_net_claims_interval_90": [
+        3173504.85930564,
+        7575043.3497630665
+      ],
+      "predictive_net_claims_median": 5005677.841358047,
+      "net_claims_var_at_selected_quantile": 12533168.058136448,
+      "net_claims_tvar_at_selected_quantile": 14001111.589424124,
+      "economic_capital_var_minus_mean": 7358127.378865569,
+      "annual_cost_of_capital": 735812.7378865569,
+      "mean_claim_expense": 194064.02547265796,
+      "annual_operating_expense": 3325711.753497388,
+      "annual_net_reinsurance_premium": 1918679.8577869548,
+      "mean_expected_profit_after_capital": 1441889.9979985924,
+      "profit_after_capital_predictive_interval_90": [
+        -1048112.7726370511,
+        3518483.4112125267
+      ],
+      "probability_profit_after_capital_below_zero": 0.134125,
+      "break_even_annual_premium_per_vehicle": 103473.1769937304,
+      "mean_driving_claim_count": 28.0505,
+      "mean_non_driving_claim_count": 4.05725,
+      "mean_gross_claims_paid_by_year_end": 4258049.900985392,
+      "mean_reported_outstanding_at_year_end": 1404321.3925339584,
+      "mean_ibnr_at_year_end": 806429.5555692492,
+      "mean_total_outstanding_at_year_end": 2210750.9481032076,
+      "mean_ceded_recoverable_at_year_end": 654610.63239805,
+      "max_claim_reconciliation_error": 0.0,
+      "simulated_common_shock_frequency": 0.019,
+      "driver_excess_sensitivity_by_group": {
+        "stable": [
+          {
+            "driver_excess_per_claim": 0,
+            "expected_driver_excess_per_vehicle_year": 0.0,
+            "expected_operator_net_retention_per_vehicle_year": 6884.343149807938
+          },
+          {
+            "driver_excess_per_claim": 5000,
+            "expected_driver_excess_per_vehicle_year": 1147.3905249679897,
+            "expected_operator_net_retention_per_vehicle_year": 5736.952624839949
+          },
+          {
+            "driver_excess_per_claim": 10000,
+            "expected_driver_excess_per_vehicle_year": 2294.7810499359794,
+            "expected_operator_net_retention_per_vehicle_year": 4589.562099871959
+          }
+        ],
+        "volatile": [
+          {
+            "driver_excess_per_claim": 0,
+            "expected_driver_excess_per_vehicle_year": 0.0,
+            "expected_operator_net_retention_per_vehicle_year": 13519.495702005732
+          },
+          {
+            "driver_excess_per_claim": 5000,
+            "expected_driver_excess_per_vehicle_year": 2253.249283667622,
+            "expected_operator_net_retention_per_vehicle_year": 11266.246418338109
+          },
+          {
+            "driver_excess_per_claim": 10000,
+            "expected_driver_excess_per_vehicle_year": 4506.498567335244,
+            "expected_operator_net_retention_per_vehicle_year": 9012.997134670488
+          }
+        ]
+      },
+      "insurer_cash_npv_after_capital": 1513310.1438260882,
+      "moove_driver_standard_repair_12_days": {
+        "fleet_downtime_days": 329.6055,
+        "moove_gross_retention": 841515.0,
+        "driver_excess_paid_to_moove": 0.0,
+        "moove_net_retention": 841515.0,
+        "expedited_repair_surcharge": 0.0,
+        "package_cash_assuming_full_collection": 129825999.20992751,
+        "insurance_premium_cash": 12791199.05191303,
+        "maintenance_and_admin_cash": 13519999.999999998,
+        "moove_contribution_before_vehicle_capex_debt_tax_depreciation": 102673285.15801448,
+        "moove_npv": 93975166.25406244,
+        "driver_take_home_after_household_package_downtime_excess": 13890540.790072475,
+        "driver_npv": 13197650.894984681,
+        "moove_contribution_per_vehicle_year": 1026732.8515801447,
+        "driver_take_home_per_vehicle_year": 138905.40790072473,
+        "fleet_downtime_days_per_vehicle_year": 3.296055,
+        "monthly": [
+          {
+            "month": 1,
+            "moove_cash": 8555440.846501207,
+            "driver_cash": 1182960.0658393728,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 131540.00000000003,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 2,
+            "moove_cash": 8555583.346501207,
+            "driver_cash": 1153779.3515536587,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 160720.7142857143,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 3,
+            "moove_cash": 8556033.346501207,
+            "driver_cash": 1155152.92298223,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 159347.14285714287,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 4,
+            "moove_cash": 8555718.346501207,
+            "driver_cash": 1154215.0658393728,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 160285.0,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 5,
+            "moove_cash": 8556104.596501207,
+            "driver_cash": 1154500.0658393728,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 160000.0,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 6,
+            "moove_cash": 8557567.096501207,
+            "driver_cash": 1157553.6372679444,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 156946.4285714286,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 7,
+            "moove_cash": 8556235.846501207,
+            "driver_cash": 1156142.92298223,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 158357.14285714287,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 8,
+            "moove_cash": 8555530.846501207,
+            "driver_cash": 1154192.92298223,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 160307.14285714287,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 9,
+            "moove_cash": 8556243.346501207,
+            "driver_cash": 1155147.2086965158,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 159352.85714285716,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 10,
+            "moove_cash": 8556715.846501207,
+            "driver_cash": 1155973.6372679444,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 158526.4285714286,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 11,
+            "moove_cash": 8556385.846501207,
+            "driver_cash": 1156045.0658393728,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 158455.0,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 12,
+            "moove_cash": 8555725.846501207,
+            "driver_cash": 1154877.92298223,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 159622.14285714287,
+            "incentive": 5800.0263357491995
+          }
+        ]
+      },
+      "moove_driver_expedited_repair_2_days": {
+        "fleet_downtime_days": 55.973875,
+        "moove_gross_retention": 841515.0,
+        "driver_excess_paid_to_moove": 0.0,
+        "moove_net_retention": 841515.0,
+        "expedited_repair_surcharge": 140252.5,
+        "package_cash_assuming_full_collection": 129825999.20992751,
+        "insurance_premium_cash": 12791199.05191303,
+        "maintenance_and_admin_cash": 13519999.999999998,
+        "moove_contribution_before_vehicle_capex_debt_tax_depreciation": 102533032.65801448,
+        "moove_npv": 93846779.38293557,
+        "driver_take_home_after_household_package_downtime_excess": 15454150.075786762,
+        "driver_npv": 14682067.375523588,
+        "moove_contribution_per_vehicle_year": 1025330.3265801448,
+        "driver_take_home_per_vehicle_year": 154541.50075786762,
+        "fleet_downtime_days_per_vehicle_year": 0.55973875,
+        "monthly": [
+          {
+            "month": 1,
+            "moove_cash": 8543642.096501207,
+            "driver_cash": 1288003.6372679444,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 26496.428571428576,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 2,
+            "moove_cash": 8543808.346501207,
+            "driver_cash": 1287627.2086965158,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 26872.857142857145,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 3,
+            "moove_cash": 8544333.346501207,
+            "driver_cash": 1287748.6372679444,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 26751.428571428576,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 4,
+            "moove_cash": 8543965.846501207,
+            "driver_cash": 1287688.6372679444,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 26811.428571428576,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 5,
+            "moove_cash": 8544416.471501207,
+            "driver_cash": 1287754.3515536587,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 26745.714285714286,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 6,
+            "moove_cash": 8546122.721501207,
+            "driver_cash": 1288378.6372679444,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 26121.428571428576,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 7,
+            "moove_cash": 8544569.596501207,
+            "driver_cash": 1287855.0658393728,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 26645.000000000004,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 8,
+            "moove_cash": 8543747.096501207,
+            "driver_cash": 1287605.7801250874,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 26894.285714285717,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 9,
+            "moove_cash": 8544578.346501207,
+            "driver_cash": 1287856.4944108017,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 26643.571428571428,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 10,
+            "moove_cash": 8545129.596501207,
+            "driver_cash": 1288035.7801250874,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 26464.285714285717,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 11,
+            "moove_cash": 8544744.596501207,
+            "driver_cash": 1287932.92298223,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 26567.14285714286,
+            "incentive": 5800.0263357491995
+          },
+          {
+            "month": 12,
+            "moove_cash": 8543974.596501207,
+            "driver_cash": 1287662.92298223,
+            "package": 10818833.26749396,
+            "premium": 1065933.2543260858,
+            "maintenance_admin": 1126666.6666666665,
+            "lost_work": 26837.14285714286,
+            "incentive": 5800.0263357491995
+          }
+        ]
+      },
+      "premium_sensitivity": [
+        {
+          "premium_per_vehicle": 110000,
+          "expected_profit_after_capital": 385082.55736990576
+        },
+        {
+          "premium_per_vehicle": 120000,
+          "expected_profit_after_capital": 975082.5573699058
+        },
+        {
+          "premium_per_vehicle": 130000,
+          "expected_profit_after_capital": 1565082.557369906
+        },
+        {
+          "premium_per_vehicle": 140000,
+          "expected_profit_after_capital": 2155082.557369906
+        },
+        {
+          "premium_per_vehicle": 150000,
+          "expected_profit_after_capital": 2745082.557369906
+        }
+      ]
+    }
+  },
+  "mwendo_156_week_bridge": {
+    "flat": {
+      "stable": {
+        "uninterrupted": {
+          "billed_fees": 3900000.0,
+          "collected_fees": 3900000.0,
+          "final_arrears": 0.0,
+          "peak_arrears": 0.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 468000.0,
+          "equity_npv": 640726.6017478997,
+          "additional_equity": 0.0,
+          "total_insurance_cash": 390000.0,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3e-33,
+          "annual_premium_input": 130000,
+          "weekly_fee_adjustment_including_incentive": 0.0
+        },
+        "scheduled_repair": {
+          "billed_fees": 3900000.0,
+          "collected_fees": 3900000.0,
+          "final_arrears": 0.0,
+          "peak_arrears": 50000.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 399428.5714285714,
+          "equity_npv": 610510.2790458862,
+          "additional_equity": 62926.464707446496,
+          "total_insurance_cash": 390000.0,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.2e-33,
+          "annual_premium_input": 130000,
+          "weekly_fee_adjustment_including_incentive": 0.0
+        },
+        "expedited_repair": {
+          "billed_fees": 3900000.0,
+          "collected_fees": 3900000.0,
+          "final_arrears": 0.0,
+          "peak_arrears": 0.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 456571.4285714286,
+          "equity_npv": 607145.298811214,
+          "additional_equity": 26472.672723757663,
+          "total_insurance_cash": 390000.0,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3e-33,
+          "annual_premium_input": 130000,
+          "weekly_fee_adjustment_including_incentive": 0.0
+        }
+      },
+      "volatile": {
+        "uninterrupted": {
+          "billed_fees": 3900000.0,
+          "collected_fees": 3900000.0,
+          "final_arrears": 0.0,
+          "peak_arrears": 0.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 468000.0,
+          "equity_npv": 640726.6017478997,
+          "additional_equity": 0.0,
+          "total_insurance_cash": 390000.0,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3e-33,
+          "annual_premium_input": 130000,
+          "weekly_fee_adjustment_including_incentive": 0.0
+        },
+        "scheduled_repair": {
+          "billed_fees": 3900000.0,
+          "collected_fees": 3900000.0,
+          "final_arrears": 0.0,
+          "peak_arrears": 50000.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 399428.5714285714,
+          "equity_npv": 610510.2790458862,
+          "additional_equity": 62926.464707446496,
+          "total_insurance_cash": 390000.0,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.2e-33,
+          "annual_premium_input": 130000,
+          "weekly_fee_adjustment_including_incentive": 0.0
+        },
+        "expedited_repair": {
+          "billed_fees": 3900000.0,
+          "collected_fees": 3900000.0,
+          "final_arrears": 0.0,
+          "peak_arrears": 0.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 456571.4285714286,
+          "equity_npv": 607145.298811214,
+          "additional_equity": 26472.672723757663,
+          "total_insurance_cash": 390000.0,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3e-33,
+          "annual_premium_input": 130000,
+          "weekly_fee_adjustment_including_incentive": 0.0
+        }
+      }
+    },
+    "neutral_relativity": {
+      "stable": {
+        "uninterrupted": {
+          "billed_fees": 3875982.613555915,
+          "collected_fees": 3875982.613555915,
+          "final_arrears": 0.0,
+          "peak_arrears": 0.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 492017.3864440848,
+          "equity_npv": 664919.7263414258,
+          "additional_equity": 0.0,
+          "total_insurance_cash": 341965.2271118199,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.4e-33,
+          "annual_premium_input": 113988.40903727326,
+          "weekly_fee_adjustment_including_incentive": -153.95760541083402
+        },
+        "scheduled_repair": {
+          "billed_fees": 3875982.613555915,
+          "collected_fees": 3875982.613555915,
+          "final_arrears": 0.0,
+          "peak_arrears": 49692.0847891784,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 423445.95787265623,
+          "equity_npv": 634785.3643570809,
+          "additional_equity": 62310.634285803164,
+          "total_insurance_cash": 341965.2271118199,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.2e-33,
+          "annual_premium_input": 113988.40903727326,
+          "weekly_fee_adjustment_including_incentive": -153.95760541083402
+        },
+        "expedited_repair": {
+          "billed_fees": 3875982.613555915,
+          "collected_fees": 3875982.613555915,
+          "final_arrears": 0.0,
+          "peak_arrears": 0.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 480588.8150155134,
+          "equity_npv": 631338.4234047402,
+          "additional_equity": 26318.715118346798,
+          "total_insurance_cash": 341965.2271118199,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.4e-33,
+          "annual_premium_input": 113988.40903727326,
+          "weekly_fee_adjustment_including_incentive": -153.95760541083402
+        }
+      },
+      "volatile": {
+        "uninterrupted": {
+          "billed_fees": 3956040.568369547,
+          "collected_fees": 3956040.568369547,
+          "final_arrears": 0.0,
+          "peak_arrears": 0.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 411959.4316304532,
+          "equity_npv": 584275.9776963505,
+          "additional_equity": 6200.386104987423,
+          "total_insurance_cash": 502081.1367390873,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.6e-33,
+          "annual_premium_input": 167360.3789130291,
+          "weekly_fee_adjustment_including_incentive": 359.2344126252798
+        },
+        "scheduled_repair": {
+          "billed_fees": 3956040.568369547,
+          "collected_fees": 3956040.568369547,
+          "final_arrears": 0.0,
+          "peak_arrears": 50718.4688252506,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 343388.00305902463,
+          "equity_npv": 553832.5305514183,
+          "additional_equity": 70563.78846293504,
+          "total_insurance_cash": 502081.1367390873,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.6e-33,
+          "annual_premium_input": 167360.3789130291,
+          "weekly_fee_adjustment_including_incentive": 359.2344126252798
+        },
+        "expedited_repair": {
+          "billed_fees": 3956040.568369547,
+          "collected_fees": 3956040.568369547,
+          "final_arrears": 0.0,
+          "peak_arrears": 0.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 400530.8602018818,
+          "equity_npv": 550694.674759665,
+          "additional_equity": 33032.293241370346,
+          "total_insurance_cash": 502081.1367390873,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.6e-33,
+          "annual_premium_input": 167360.3789130291,
+          "weekly_fee_adjustment_including_incentive": 359.2344126252798
+        }
+      }
+    },
+    "validated_intervention": {
+      "stable": {
+        "uninterrupted": {
+          "billed_fees": 3875982.613555915,
+          "collected_fees": 3875982.613555915,
+          "final_arrears": 0.0,
+          "peak_arrears": 0.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 492017.3864440848,
+          "equity_npv": 664919.7263414258,
+          "additional_equity": 0.0,
+          "total_insurance_cash": 341965.2271118199,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.4e-33,
+          "annual_premium_input": 113988.40903727326,
+          "weekly_fee_adjustment_including_incentive": -153.95760541083402
+        },
+        "scheduled_repair": {
+          "billed_fees": 3875982.613555915,
+          "collected_fees": 3875982.613555915,
+          "final_arrears": 0.0,
+          "peak_arrears": 49692.0847891784,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 423445.95787265623,
+          "equity_npv": 634785.3643570809,
+          "additional_equity": 62310.634285803164,
+          "total_insurance_cash": 341965.2271118199,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.2e-33,
+          "annual_premium_input": 113988.40903727326,
+          "weekly_fee_adjustment_including_incentive": -153.95760541083402
+        },
+        "expedited_repair": {
+          "billed_fees": 3875982.613555915,
+          "collected_fees": 3875982.613555915,
+          "final_arrears": 0.0,
+          "peak_arrears": 0.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 480588.8150155134,
+          "equity_npv": 631338.4234047402,
+          "additional_equity": 26318.715118346798,
+          "total_insurance_cash": 341965.2271118199,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.4e-33,
+          "annual_premium_input": 113988.40903727326,
+          "weekly_fee_adjustment_including_incentive": -153.95760541083402
+        }
+      },
+      "volatile": {
+        "uninterrupted": {
+          "billed_fees": 3938640.4893622957,
+          "collected_fees": 3938640.4893622957,
+          "final_arrears": 0.0,
+          "peak_arrears": 0.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 429359.5106377044,
+          "equity_npv": 589315.3337449718,
+          "additional_equity": 0.0,
+          "total_insurance_cash": 481201.04193039,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.5e-33,
+          "annual_premium_input": 160400.34731013005,
+          "weekly_fee_adjustment_including_incentive": 247.69544463010277
+        },
+        "scheduled_repair": {
+          "billed_fees": 3938640.4893622957,
+          "collected_fees": 3938640.4893622957,
+          "final_arrears": 0.0,
+          "peak_arrears": 50495.3908892602,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 360788.0820662758,
+          "equity_npv": 558948.5469923292,
+          "additional_equity": 64095.70883475919,
+          "total_insurance_cash": 481201.04193039,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.7e-33,
+          "annual_premium_input": 160400.34731013005,
+          "weekly_fee_adjustment_including_incentive": 247.69544463010277
+        },
+        "expedited_repair": {
+          "billed_fees": 3938640.4893622957,
+          "collected_fees": 3938640.4893622957,
+          "final_arrears": 0.0,
+          "peak_arrears": 0.0,
+          "household_shortfall": 0.0,
+          "driver_cash_surplus": 417930.939209133,
+          "equity_npv": 555734.0308082862,
+          "additional_equity": 26809.59934278391,
+          "total_insurance_cash": 481201.04193039,
+          "total_debt_interest": 231213.5428828913,
+          "vehicle_transferred": true,
+          "maximum_reconciliation_error": 3.7e-33,
+          "annual_premium_input": 160400.34731013005,
+          "weekly_fee_adjustment_including_incentive": 247.69544463010277
+        }
+      }
+    }
+  }
+}

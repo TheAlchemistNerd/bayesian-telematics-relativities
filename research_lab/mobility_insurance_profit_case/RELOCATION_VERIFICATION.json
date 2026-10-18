@@ -1,0 +1,69 @@
+{
+  "verified_at_utc": "2026-10-18T20:37:33.319432+00:00",
+  "scope": "Relocation validation only; publication prose, generated binaries, and numeric outputs preserved.",
+  "existing_unit_tests": {
+    "status": "passed",
+    "count": 8,
+    "duration_seconds": 3.387,
+    "command": "python -B -m unittest research_lab.mobility_insurance_profit_case.test_model -v"
+  },
+  "path_checks": {
+    "default_sibling": {
+      "status": "passed",
+      "resolved": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\research_lab\\mobility_fleet_case"
+    },
+    "valid_override": {
+      "status": "passed",
+      "root": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance"
+    },
+    "invalid_override": {
+      "status": "passed",
+      "no_sibling_fallback": true,
+      "error": "The Mwendo bridge requires its sibling repository https://github.com/TheAlchemistNerd/mwendo-pamoja-continuous-underwriting. Set MWENDO_PAMOJA_ROOT to that checkout's root. Checked: C:\\Users\\Nevo\\Downloads\\bayesian-telematics-relativities\\__nonexistent_mwendo_relocation_check__\\research_lab\\mobility_fleet_case"
+    },
+    "deck_roots": {
+      "status": "passed",
+      "root": "C:\\Users\\Nevo\\Downloads\\bayesian-telematics-relativities"
+    },
+    "required_inputs_and_artifacts": {
+      "status": "passed",
+      "files": [
+        "research_lab/mobility_insurance_profit_case/output/results.json",
+        "research_lab/mobility_insurance_profit_case/output/summary.json",
+        "docs/research/MOOVE_BAYESIAN_INSURANCE_PROFIT_TESTING_CASE_2026-10-14.md",
+        "publications/industry-engagement/moove_bayesian_2026-10-14/BAYESIAN_RELATIVITIES_X_MOOVE_RESEARCH_PARTNERSHIP_DECK_2026-10-14_V3.pptx",
+        "publications/industry-engagement/moove_bayesian_2026-10-14/BAYESIAN_RELATIVITIES_X_MOOVE_RESEARCH_PARTNERSHIP_DECK_2026-10-14_V3.pdf",
+        "publications/industry-engagement/moove_bayesian_2026-10-14/charts/FIGURE_01_BAYESIAN_RELATIVITIES_90CI.png",
+        "publications/industry-engagement/moove_bayesian_2026-10-14/charts/FIGURE_02_TARIFF_ALLOCATION_VS_FLAT_PREMIUM.png",
+        "publications/industry-engagement/moove_bayesian_2026-10-14/charts/FIGURE_03_INSURER_PROFIT_TEST_WITH_90CI.png",
+        "publications/industry-engagement/moove_bayesian_2026-10-14/charts/FIGURE_04_REPAIR_DOWNTIME_AND_DRIVER_CASH.png"
+      ]
+    },
+    "relative_markdown_links": {
+      "status": "passed",
+      "checked": 5,
+      "broken": []
+    }
+  },
+  "syntax_checks": {
+    "research_lab/mobility_insurance_profit_case/model.py": "passed",
+    "research_lab/mobility_insurance_profit_case/run_case.py": "passed",
+    "research_lab/mobility_insurance_profit_case/test_model.py": "passed",
+    "publications/industry-engagement/moove_bayesian_2026-10-14/BUILD_SOURCE/make_charts.py": "passed",
+    "publications/industry-engagement/moove_bayesian_2026-10-14/BUILD_SOURCE/make_pdf_v3.py": "passed",
+    "publications/industry-engagement/moove_bayesian_2026-10-14/BUILD_SOURCE/generate_deck_v3.mjs": "passed",
+    "publications/industry-engagement/moove_bayesian_2026-10-14/BUILD_SOURCE/render_deck_v3.mjs": "passed"
+  },
+  "dependency": {
+    "repository": "https://github.com/TheAlchemistNerd/mwendo-pamoja-continuous-underwriting",
+    "case_directory": "C:\\Users\\Nevo\\Downloads\\insuretech & embedded finance\\research_lab\\mobility_fleet_case",
+    "sha256": {
+      "model.py": "911c056f0aa4d4706263767a180a344f5df0eb6783a85b23ffe23187ce9328ca",
+      "assumptions.json": "b7cf1237a54bd28bb4413ce7c8c3f4f86902b5b3ed1188cadb488ddb24d7d54d"
+    }
+  },
+  "notes": [
+    "Full 8,000-path output and deck artifacts were not regenerated.",
+    "Existing root README.md changes were not touched."
+  ]
+}
