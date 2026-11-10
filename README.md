@@ -4,6 +4,8 @@ Authoritative standalone working repository, extracted on 26 September 2026 from
 
 ## Start here
 
+- [IFoA practical-depth review: pricing, reserving, capital and insurer decisions](whitepapers/telematics-relativities/IFOA_PRACTICAL_APPLICATION_REVIEW_2026-10-03.md)
+
 - [Canonical paper](whitepapers/telematics-relativities/paper.md)
 - [Mathematical derivations](whitepapers/telematics-relativities/Mathematical_Derivations.md)
 - [Implementation plan](whitepapers/telematics-relativities/DETAILED_IMPLEMENTATION_PLAN.md)

@@ -1,0 +1,62 @@
+Bayesian Relativities could provide the actuarial component of a Moove application: translating driving exposure and behaviour into credible estimates of insurance cost, then testing how those costs affect the driver, fleet operator and insurer.
+Mwendo Pamoja connects operating conditions to repayment and financing. Bayesian Relativities develops the insurance side of that connection in considerably more depth.
+1. Moove already has the relevant operating setting
+Moove’s UK materials describe fleet insurance, vehicle telematics and bundled servicing. Its privacy policy identifies mileage, speed, acceleration and deceleration among the data collected, alongside insurance-related data sharing. These are directly relevant inputs for an exposure-based insurance model. Moove Customer Hub, Moove privacy policy
+The application would connect those observations to covered claims, claim costs and settlement history, giving the telematics evidence an actuarial outcome against which to be evaluated.
+2. Your paper explains how to turn that evidence into insurance quantities
+The [Bayesian Relativities paper](C:/Users/Nevo/Downloads/bayesian-telematics-relativities/whitepapers/telematics-relativities/paper.md) separates:
+- Exposure: how much insured driving occurs.
+- Frequency: expected claims per unit of exposure.
+- Severity: expected cost when a claim occurs.
+- Non-driving losses: separately modelled risks such as theft or damage while parked.
+In its simplified frequency–severity calculation:
+Expected driving claims cost = exposure × claim rate per exposure unit × mean claim cost
+That is useful for Moove because a highly productive driver may accumulate more kilometres while maintaining a relatively low claim rate per kilometre. The model can distinguish how much someone drives from the estimated risk associated with each unit of driving.
+An example already in your paper
+The paper’s hypothetical, pre-calibration example uses a baseline of 0.08 claims per 10,000 kilometres and KES 180,000 per claim:
+Monthly measure	Amina	Kamau
+Distance	2,000 km	3,200 km
+Frequency multiplier	0.85	1.20
+Severity multiplier	0.95	1.10
+Expected driving claims cost	KES 2,325.60	KES 6,082.56
+
+
+These are illustrative expected claims costs. The customer premium then incorporates the applicable coverage, expenses, risk transfer, capital provision and commercial terms.
+For Moove and its insurer, that decomposition makes a pricing discussion much more informative: exposure, claim incidence and claim size each have an identifiable contribution.
+3. Bayesian credibility makes it usable for individual drivers
+A new driver brings limited personal experience. Your hierarchy combines that experience with information from relevant fleet, territory and vehicle groups, progressively increasing the influence of the individual record as evidence accumulates.
+The useful decision package includes:
+- An estimated frequency or severity relativity.
+- Its credible interval, showing parameter uncertainty.
+- A predictive loss distribution, incorporating uncertainty in future claims.
+- Exposure volume, claims maturity and data-quality indicators.
+For a reviewer, this answers both “What does the evidence suggest?” and “How much confidence should we place in this individual estimate?”
+The recursive Gamma–Poisson and inverse-Gamma–Gamma updates also support computational feasibility. Under the specified conditional models, individual experience can be updated through a small set of accumulated statistics, alongside scheduled recalibration of the wider model.
+4. The commercial uses extend beyond individual premiums
+Decision	How the paper could contribute
+Fleet insurance renewal	Supply exposure-adjusted loss estimates, uncertainty and claims-development evidence for discussions with insurers and brokers.
+Driver rewards	Identify sufficiently credible evidence for approved renewal benefits or incentives; evaluate their affordability and behavioural effects.
+Safety support	Identify situations for timely coaching or other approved interventions, then measure subsequent claims and driver outcomes.
+Excesses and retained risk	Compare the expected cost, volatility and cash demands of alternative insurance arrangements.
+Insurer reserving and reinsurance	Extend the same claim evidence into reporting delays, payment development, reserve uncertainty and risk-transfer analysis.
+Moove’s vehicle economics	Connect insurance expenditure, retained losses, repair downtime and vehicle availability to operating contribution and repayment.
+
+
+Each participant receives the quantities relevant to its contractual exposure. Insurance reserves and reinsurance analysis would principally serve the insurer or another entity actually bearing those obligations.
+5. Profit testing is where the proposition becomes commercially persuasive
+A useful Moove application would compare complete scenarios:
+Existing arrangement → telematics-informed arrangement → intervention-and-incentive arrangement
+For each scenario, track three perspectives:
+- Insurer: premiums, claims, expenses, reinsurance and capital requirements.
+- Moove: insurance payments, retained costs, downtime, servicing expenditure, collections and funding.
+- Driver: total payments, excesses, incentives, days able to work and take-home cash.
+Your paper’s tariff normalisation preserves an approved expected-loss level while reallocating relativities within the calibration population. Demonstrated reductions in claims would support a separate reassessment of that level and the benefits available to share.
+The paper also draws on actuarial research examining how reinsurance and capital decisions affect the distribution of long-term shareholder returns—an appropriate foundation for this profit-testing extension. Robbin and Malhotra, CAS Forum
+6. How the projects connect for Moove
+Bayesian Relativities estimates insurance loss and uncertainty.
+Mwendo Pamoja connects insurance, repairs and driver liquidity to earning capacity, repayment and financing.
+Underwrite for Collection supplies the broader evidence, intervention and outcome-evaluation framework.
+The strongest joint proposition is:
+Use exposure-adjusted insurance evidence to identify credible opportunities for safer operations, then demonstrate how the resulting changes improve driver cash, fleet economics and insurer performance.
+
+The existing paper and synthetic experiments provide a research foundation. A Moove application would build on that foundation using matched telematics, exposure, claims, contract and operating records from a defined fleet.
